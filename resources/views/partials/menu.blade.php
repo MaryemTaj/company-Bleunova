@@ -30,17 +30,18 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{url('/service/travaux')}}">Construction FitOut</a>
-                            <a class="dropdown-item" href="{{url('/service/exportimport')}}">Export Import</a>
+                            <a class="dropdown-item" href="{{url('/service/exportimport')}}">Import Export</a>
+                            <a class="dropdown-item" href="{{url('/service/realEstate')}}">Real Estate</a>
                             <a class="dropdown-item" href="{{url('/service/it')}}">it-solution</a>
                             
                         </li>
                         <li class="">
                         
-                            <a class="nav-link" href="{{ url('/blog') }}">Blog</a>
+                            <a class="nav-link" href="{{url('/blog')}}">Blog</a>
                         </li>
                         <li class="">
                         
-                        <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+                        <a class="nav-link" href="{{url('/contact')}}">Contact</a>
                     </li>
                         </ul>
                     

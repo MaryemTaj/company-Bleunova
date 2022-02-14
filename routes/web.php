@@ -41,6 +41,15 @@ Route::get('/service/it/1',"ServicesController@pageIt1");
 Route::get('/service/it/2',"ServicesController@pageIt2");
 Route::get('/service/it/3',"ServicesController@pageIt3");
 
+
+Route::get('/service/realEstate',"ServicesController@pageRealEstate");
+Route::get('/service/realEstate/1',"ServicesController@pageRealEstate1");
+Route::get('/service/realEstate/2',"ServicesController@pageRealEstate2");
+Route::get('/service/realEstate/3',"ServicesController@pageRealEstate3");
+
+Route::get('/service/company-policy',"ServicesController@pageCompanyPolicy");
+
+
 // Route::get('/email', [App\Http\Controllers\EmailController::class, 'create']);
 // Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.email');
 

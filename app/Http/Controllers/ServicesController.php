@@ -65,4 +65,25 @@ class ServicesController extends Controller
       }
 
 
+      public function pageRealEstate(){
+        $categories=Category::all();
+          return view('site.real-estate',['categories'=>$categories]);
+      }
+  
+      public function pageRealEstate1(){
+          $categories=Category::all();
+            return view('site.real-estate1',['categories'=>$categories]);
+        }
+  
+        public function pageRealEstate2(){
+          $categories=Category::all();
+            return view('site.real-estate2',['categories'=>$categories]);
+        }
+       
+        
+        public function pageCompanyPolicy(){
+            $categories=Category::all();
+              return view('site.company-policy',['categories'=>$categories]);
+          }
+
 }

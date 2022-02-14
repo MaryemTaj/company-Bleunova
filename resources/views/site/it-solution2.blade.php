@@ -9,8 +9,8 @@
         <div class="col-12">
             <div class="col-md-6 col-lg-12">
                
-                <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> title</h3> 
+                <div class="animate__animated animate__bounceInUp  wow zoomIn" data-wow-delay="0.2s">
+                    <h3 style="font-family:Times New Roman, Times, serif;"> </h3> 
                 </div>
             </div>
         </div>
@@ -26,16 +26,16 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="call-to-title text-center mb-50">
-                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">title</h2>
+                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">MOBILE APPS DEVELOPMENT</h2>
                                 </div>
                             </div>
 
                             <!-- Single Content -->
                             <div class="col-md-6 col-lg-4 animated slideInRight">
                                 <div class="single-call-desc-content ca-mb-50">
-                                <div class="feature-img">
-                            <img class="img-fluid" src="" alt="" style=" border-radius: 8px;">
-                        </div>
+                                <div class="">
+                            <img class="img-fluid" src="{{ asset('img/mobile-2.jpg') }}" alt="" style=" border-radius: 8px;">
+                             </div>
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@
                             <div class="col-md-6 col-lg-8 animated slideInRight">
                                 <div class="single-call-desc-content">
                                   
-                                    <p class="text-black  mb-0 " >text</p>
+                                    <p class="text-black  mb-0 " >text Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae laudantium ipsum pariatur temporibus blanditiis. A dolores delectus suscipit voluptates assumenda modi. Ipsam in mollitia laboriosam laborum nisi eveniet excepturi voluptatem!</p>
                                 </div>
                             </div>
                         </div>

@@ -6,8 +6,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="why-we-content-text mb-50">
-                        <h1 class="mb-15">{{setting('bluenova.titleAboutUS')}}</h1>
-                        <h6  style="font-family:Times New Roman, Times, serif;">{{setting('bluenova.About')}}</h6 >
+                        <h1 class="mb-15">title</h1>
+                        <h6  style="font-family:Times New Roman, Times, serif;">text</h6 >
                     </div>
                 </div>
 

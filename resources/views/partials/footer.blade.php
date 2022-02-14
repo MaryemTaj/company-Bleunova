@@ -40,7 +40,8 @@
                         <h4>Solutions</h4>
                         <ul>
                         <li><a href="{{url('/service/travaux')}}">Les Travaux Divers</a></li>
-                        <li><a href="{{url('/service/exportimport')}}">Export Import</a></li>
+                        <li><a href="{{url('/service/exportimport')}}">Import Export</a></li>
+                        <li><a href="{{url('/service/exportimport')}}">Rale Estate</a></li>
                         <li><a href="{{url('/service/it')}}">it-solution</a></li>
                         </ul>
                     </div>
@@ -72,7 +73,7 @@
                 <div class="col-md-6">
                     <div class="copy-right-menu">
                         <ul>
-                            <li><a href="#">Privace &amp; Policy</a></li>
+                            <li><a href="/service/company-policy">Privace &amp; Policy</a></li>
                             <li><a href="#">Faq's</a></li>
                             <li><a href="#">Get a Quote</a></li>
                         </ul>

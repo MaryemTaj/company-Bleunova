@@ -89,26 +89,46 @@
     <!-- Welcome-area-end -->
      <br><br>
      <!-- introduction -->
-<div class="container section-padding-10">
-    <div class="row">
-        <div class="col-12">
-            <div class="col-md-6 col-lg-12">
-                <div class="animate__zoomIn   wow zoomIn" data-wow-delay="0.2s">
-                    <h5 style="font-family:Times New Roman, Times, serif;"> <i>{{setting('bluenova.introduction')}} </i></h5> 
+     <div class="call-to-desc-area">
+        <div class="container section-padding-0-50">
+            <div class="row">
+                <div class="col-12">
+                    <div class="call-to-action-area">
+                        <div class="row">
+                            <!-- Single Content -->
+                            <div class="col-md-6 col-lg-4 animated slideInRight">
+                                <div class="single-call-desc-content ca-mb-50">
+                                <div class="feature-img ">
+                            <img class="img-fluid" src="{{ asset('img/pre.png') }}" alt="" style="">
+                        </div>
+                                </div>
+                            </div>
+                            <!-- Single Content -->
+                            <div class="col-md-6 col-lg-8 animated slideInRight">
+                                <div class="single-call-desc-content">
+                                  
+                                    <p class="text-black  mb-0 mt-0" >Al Majlis Trading is a company founded on local traditions that have evolved over many years to help us become a leading importer in Qatar. Al Majlis Trading imports
+                                                                  the highest quality products from around the world to fulfil the extensive needs of an economy experiencing unprecedented growth.
+                                  </p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
   <!--end introduction -->
    
     <!-- Our Service Area -->
-    <div class="our-service-area section-padding-100-50">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-7">
-                    <div class="section-title t_center  animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                        <h2>Our Service</h2>
+    <div class="our-service-area section-padding-50-50 content-service" > 
+        <div class="container"  >
+            <div class="row justify-content-center  ">
+                <div class="col-md-8 col-lg-7 section-padding-10">
+                    <div class="section-title t_center  animated slideInRight  wow zoomIn" data-wow-delay="0.2s">
+                        <div class="ligne"></div>
+                        <h2 class="ligne" >Our Service</h2>
                         <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
                     </div>
                 </div>
@@ -116,12 +136,105 @@
 
           
 
-            <div class="row">
+            <div class="row  " >
                 <div class="col-12">
                     <div class="content-box">
-                        <div class="inner-box">
+                        <div class="inner-box" >
+
+                        <div class="row "    >
+                             <!-- Service Export Import -->               
+                            <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s" >
+                                <div class="single-blog-area  border-hover"  >
+                                     <!-- Thumb -->
+                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
+                                        <a  href="service/exportimport">
+                                            <img src="{{ asset('img/expo.jpg') }}" alt="" style=" border-radius: 8px;height: 200px; ">
+                                        </a>                            
+                                     </div>
+                                     </div>
+                                    <!-- Content -->
+                                    <div class="single-blog-content mt-10">                          
+                                        <a href="{{url('/service/it')}}">
+                                            <h5 class="ligne">Export Import</h5>
+                                        </a>
+                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, debitis?</span>
+                                        <p><a href=""></a></p>
+                                    </div>                        
+                               
+                           </div> 
+                           
+
+                            <!-- Service Les Travaux Divers -->               
+                            <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
+                                <div class="single-blog-area  border-hover">
+                                     <!-- Thumb -->
+                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
+                                        <a  href="service/travaux">
+                                            <img src="{{ asset('img/civil.jpg') }}" alt="" style=" border-radius: 8px; height: 200px;">
+                                        </a>                            
+                                     </div>
+                                     </div>
+                                    <!-- Content -->
+                                    <div class="single-blog-content mt-10">                          
+                                        <a href="service/travaux">
+                                            <h5 class="ligne">Construction</h5>
+                                        </a>
+                                        <span class="ligne">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quas!</span>
+                                        <p><a href=""></a></p>
+                                    </div>                        
+                                
+                           </div> 
+
+                            <!-- Service it-solution-->               
+                            <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
+                                <div class="single-blog-area  border-hover">
+                                     <!-- Thumb -->
+                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
+                                        <a  href="{{url('/service/realEstate')}}">
+                                            <img src="{{ asset('img/immo-2.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
+                                        </a>                            
+                                     </div>
+                                     </div>
+                                    <!-- Content -->
+                                    <div class="single-blog-content mt-10">                          
+                                        <a href="{{url('/service/realEstate')}}">
+                                            <h5 class="ligne">Real Estate</h5>
+                                        </a>
+                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, repellendus?</span>
+                                        <p><a href=""></a></p>
+                                    </div>                        
+                               
+                           </div> 
+
+                                         
+                             <!-- Service autre service -->               
+                             <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
+                                <div class="single-blog-area  border-hover">
+                                     <!-- -->
+                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
+                                        <a  href="service/it">
+                                            <img src="{{ asset('img/dv.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
+                                        </a>                            
+                                     </div>
+                                     </div>
+                                    <!-- Content -->
+                                    <div class="single-blog-content mt-10">                          
+                                        <a href="service/it">
+                                            <h5 class="ligne">It Solution</h5>
+                                        </a>
+                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, repellendus?</span>
+                                        <p><a href=""></a></p>
+                                    </div>                        
+                               
+                           </div> 
+                           
+
+                        </div>
+                            <!--
+                            our service old    
+                            
                             <div class="row justify-content-center"> 
-                                <div class="col-md-6 col-lg-4">
+                                <div class="col-md-6 col-lg-3">
                                     <div class="single-item">
                                         <div class="icon-box"> 
                                                 <a href="service/exportimport">    
@@ -140,7 +253,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-6 col-lg-4">
+                                <div class="col-md-6 col-lg-3">
                                     <div class="single-item">
                                         <div class="icon-box"> 
                                                 <a href="service/travaux">    
@@ -159,7 +272,7 @@
                                 </div>
 
 
-                                <div class="col-md-6 col-lg-4">
+                                <div class="col-md-6 col-lg-3">
                                     <div class="single-item">
                                         <div class="icon-box"> 
                                                 <a href="service/it">    
@@ -177,8 +290,9 @@
                                     </div>
                                 </div>
 
+                
 
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -189,7 +303,7 @@
     <!-- Our Service Area -->
 
     <!-- We Build Product Area -->
-    <div class="we-build-product-area section-padding-0-50">
+    <div class="we-build-product-area section-padding-50">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -211,9 +325,9 @@
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>{{setting('bluenova.title1')}}</h4>
+                                <h4>title</h4>
                             </a>
-                            <p class="mb-0 ">{{setting('bluenova.WhatWeDo')}}</p>
+                            <p class="mb-0 ">text</p>
                         </div>
                     </div>
                 </div>
@@ -228,9 +342,9 @@
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>{{setting('bluenova.title2')}}</h4>
+                                <h4>title</h4>
                             </a>
-                            <p class="mb-0">{{setting('bluenova.OurVision')}}</p>
+                            <p class="mb-0">text</p>
                         </div>
                     </div>
                 </div>
@@ -245,9 +359,9 @@
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>{{setting('bluenova.title3')}}</h4>
+                                <h4>title</h4>
                             </a>
-                            <p class="mb-0">{{setting('bluenova.OurMission')}}</p>
+                            <p class="mb-0">text</p>
                         </div>
                     </div>
                 </div>
