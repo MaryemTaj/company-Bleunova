@@ -11,7 +11,7 @@
                         
                             <a href="#">  <img src=" {{ asset('img/BlueNova.png') }}" alt="" style="width: 200px;"></a>
                         </div>
-                        <p class="mt-30">Voluptatibus labore doloribus id consequatur ducimus eum, voluptate reprehenderit sit debitis eligendi.</p>
+                        <p class="mt-30">Blue Nova Social Media</p>
                         <!-- Contact Icon -->
                         <div class="footer-contact-icon">
                             <a href="#"><i class="fa fa-facebook-f"></i></a>
@@ -37,12 +37,13 @@
                 <!-- Footer Widget -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="footer-single-widget mb-50">
-                        <h4>Solutions</h4>
+                        <h4>Services</h4>
                         <ul>
-                        <li><a href="{{url('/service/travaux')}}">Les Travaux Divers</a></li>
-                        <li><a href="{{url('/service/exportimport')}}">Import Export</a></li>
+                        <li><a href="{{url('/service/exportimport')}}">Import Export </a></li>
+                        <li><a href="{{url('/service/travaux')}}">General Construction</a></li>
+                        <li><a href="{{url('/service/it')}}">IT-Solution</a></li>
                         <li><a href="{{url('/service/exportimport')}}">Rale Estate</a></li>
-                        <li><a href="{{url('/service/it')}}">it-solution</a></li>
+                       
                         </ul>
                     </div>
                 </div>
@@ -53,9 +54,9 @@
                         <h4>Contact info</h4>
                         <ul>
                             <li><a href="#"><i class="ti-location-pin"></i>Casablanca, Maroc</a></li>
-                            <li><a href="#"><i class="ti-pin2"></i>181,Bd Abdelmoumen,Rés <br>,Al Yamama, 1er étage,Quartier des Hopitaux</a></li>
-                            <li><a href="mailto:Fadel.boukined@bluenova.ma"><i class="ti-email"></i>Fadel.boukined@bluenova.ma</a></li>
-                            <li><a href="tel:+212668044603"><i class="ti-mobile"></i> +212668044603</a></li>
+                            <li><a href="#"><i class="ti-pin2"></i>181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</a></li>
+                            <li><a href="mailto:Fadel.boukined@bluenova.ma"><i class="ti-email"></i>Contact@bluenova.ma</a></li>
+                            <li><a href="tel:+212668044603"><i class="ti-mobile"></i> </a></li>
                             <li><a href="#"><i class="ti-location-pin"></i> ti-world</a></li>
                         </ul>
                     </div>

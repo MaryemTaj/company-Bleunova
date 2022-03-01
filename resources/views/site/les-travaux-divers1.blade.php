@@ -10,7 +10,7 @@
             <div class="col-md-6 col-lg-12">
                
                 <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> title</h3> 
+                    <h3 style="font-family:Times New Roman, Times, serif;"> Team Construction</h3> 
                 </div>
             </div>
         </div>
@@ -18,41 +18,65 @@
 </div>
 
 <!-- header -->
-    <div class="call-to-desc-area">
-        <div class="container section-padding-100">
-            <div class="row">
-                <div class="col-12">
-                    <div class="call-to-action-area">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="call-to-title text-center mb-50">
-                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">title</h2>
-                                </div>
-                            </div>
-
-                            <!-- Single Content -->
-                            <div class="col-md-6 col-lg-4 animated slideInRight">
-                                <div class="single-call-desc-content ca-mb-50">
-                                <div class="feature-img">
-                            <img class="img-fluid" src="" alt="" style=" border-radius: 8px;">
-                        </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Content -->
-                         
-
-                            <!-- Single Content -->
-                            <div class="col-md-6 col-lg-8 animated slideInRight">
-                                <div class="single-call-desc-content">
-                                  
-                                    <p class="text-black  mb-0 " >text</p>
-                                </div>
-                            </div>
-                        </div>
+    <div class="call-to-desc-area bg-white">
+        <div class="container section-padding-100-50 ">
+       
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-3">
+            <div class="card p-3 py-4">
+                <div class="text-center"> </div>
+                <div class="text-center mt-3"> 
+                    <h5 class="mt-2 mb-0">Engineer</h5> <span>Engineer</span>
+                    <div class="px-4 mt-1">
+                        <p class="fonts"></p>
                     </div>
+                    <ul class="social-list">
+                       
+                    </ul>
+                   
                 </div>
-            </div>
+            </div>      
+        </div>
+    
+
+ 
+        <div class="col-md-3">
+            <div class="card p-3 py-4">
+                <div class="text-center"> </div>
+                <div class="text-center mt-3"> 
+                    <h5 class="mt-2 mb-0">Technician</h5> <span>Technician</span>
+                    <div class="px-4 mt-1">
+                        <p class="fonts"></p>
+                    </div>
+                    <ul class="social-list">
+                       
+                    </ul>
+                   
+                </div>
+            </div>      
+        </div>
+    
+   
+        <div class="col-md-3">
+            <div class="card p-3 py-4">
+                <div class="text-center"> </div>
+                <div class="text-center mt-3"> 
+                    <h5 class="mt-2 mb-0">construction manager</h5> <span>construction manager</span>
+                    <div class="px-4 mt-1">
+                        <p class="fonts"> </p>
+                    </div>
+                    <ul class="social-list">
+                       
+                    </ul>
+                   
+                </div>
+            </div>      
+        </div>
+
+   
+        
+   
+
         </div>
     </div>
     <!--================ Blog Area end =================-->

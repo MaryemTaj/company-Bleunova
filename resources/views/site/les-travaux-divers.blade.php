@@ -14,8 +14,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Services Construction FitOut</h2>
-                            <p><a href="{{ url('/') }}">Home .</a> <span>Services Construction FitOut </span></p>
+                            <h2>Services General Construction</h2>
+                            <p><a href="{{ url('/') }}">Home .</a> <span>Services General Construction  </span></p>
                         </div>
                     </div>
                 </div>
@@ -30,12 +30,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6 animated slideInLeft">
                     <div class="why-we-content-text mb-50 ">
-                        <h1 class="">About Construction FitOut</h1>
+                        <h1 class="">About General Construction </h1>
                         
                         <br>
                         <h6  style="font-family:Times New Roman, Times, serif;border-buttom:solid 5px red">
-                        L'activité de construction est essentiellement une activité de mise en œuvre ou d'installation sur le chantier du client et qui concerne aussi bien les travaux neufs que la rénovation, la réparation ou la maintenance.
-</h6 >
+                        The construction activity is essentially an activity of implementation or installation on the customer's site and which concerns both new work and renovation, repair or maintenance.</h6 >
                     </div>
                 </div>
 
@@ -51,61 +50,88 @@
     </div>
       <!-- about import export end-->
 
-    <!-- Mission & vission immobilier  -->
- <div class="we-build-product-area grey-bg section-padding-0-0">
-        <div class="container-fluid">
+    <!-- Mission & vision  -->
+
+    <div class="we-build-product-area bg-overlay  bg-v-c  section-padding-100" >
+        <div class="container">
             <div class="row">
-                <div class="col-12 mt-20 img-coding animated animate__flipInX">
+                <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center mt-5 animated slideInRight  wow zoomIn  ">                   
-                        <h5 style="color:white; " class="breadcrumb_iner_item text-center" >Mission & vision</h5>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >Our Vision</h3>
                     </div>
                 </div>
             </div>           
-        </div>
-    </div>
-
-
-    <div class="feature-area white-bg section-padding-0-50 " id="service">
-        <div class="container-fluid">
-            <div class="row justify-content-center shadow-lg p-3 mb-5 bg-white rounded">
-                <!-- Single Feature area -->
-                <div class="col-md-4 col-lg-6 mt-a50 animated slideInLeft ">
-                    <div class="single-feature-area text-center">
-                        <!-- Feature Icon -->
-                        <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/1.svg') }}" alt="">
-                        </div>
-                        <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
-                        <div class="feature-content-text">
-                        <h4>Our mission</h4>
-                            <p class="mb-0">Grâce à notre enthousiasme, notre travail en équipe et nos valeurs, nous entendons satisfaire les besoins de tous ceux qui, dans tout le territoire marocain, aiment la qualité de service, et ce à travers les meilleures réalisations que les bâtisseurs, aménageurs ou agenceurs peuvent offrir, aidés par les meilleures technologies, par l'effort intellectuel qui nait de la quête du beau et du qualitatif dans tout ce que nous faisons</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Feature area -->
-                <div class="col-md-4 col-lg-6 mt-a50 animated slideInRight">
-                    <div class="single-feature-area text-center">
-                        <!-- Feature Icon -->
-                        <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/2.svg') }}" alt="">
-                        </div>
-                        <!-- Single Feature Text {{ asset('img/icon-img/2.svg') }} -->
-                        <div class="feature-content-text">
-                        <h4>Our vision</h4>
-                            <p class="mb-0">Dans la vision que nous avons développé, nous entendons être la référence du bâtiment, de l'aménagement et de l'agencement d'intérieur. Une entreprise innovante qui propose les meilleurs produits et services et qui, grâce à cela, grandit et devient leader sur le marché.
-</p>
-                        </div>
-                    </div>
-                </div>
-
-                
-
             
+            <div class="row justify-content-center ">
+                <!-- Single Feature area -->
+                <div class="col-md-12 col-lg-12 mt-a50 animated slideInLeft ">
+                    <div class="text-center border   shadow-lg p-3 mb-5 rounded ">
+                        <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
+                        <div class="feature-content-text section-padding-40-40">
+                       
+                            <p class="mb-0 text-left text-white text-center">In the vision that we have developed, we intend to be the benchmark for building, fittings and interior design. An innovative company that offers the best products and services and that, thanks to this, grows and becomes a leader in the market
+
+
+                            </p>
+                        </div>
+                    </div>           
+                </div>
             </div>
+        </div>   
+      
+     </div>
+   
+     <!-- Mission & vission immobilier  -->
+
+<!-- Mission & vission it-solution  -->
+
+
+ 
+      <!-- Mission & vision  -->
+    
+
+
+        <br><br>
+<div class="about-us-area bg-light bg-m-it bg-overlay section-padding-0-100" id="about">
+        <div class="container">
+        <div class="row">
+                <div class="col-12  animated animate__flipInX">
+                    <div class="section-heading text-center animated slideInRight  wow zoomIn  ">                   
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >Our Mission</h3>
+                    </div>
+                </div>
+            </div>  
+            <div class="row align-items-center">
+                <div class="col-md-6 animated slideInLeft border-grad">
+                    <div class="feature-content-text  section-padding-80">
+                       
+                        
+                        <br>
+                        <p class="text-white" style="line-height:2.1">
+
+                        Thanks to our enthusiasm, our teamwork and our values, we intend to satisfy the needs of all those who, throughout the Moroccan territory, love the quality of service, and this through the best achievements that builders, developers or fitters can offer, aided by the best technologies, by the intellectual effort that comes from the quest for beauty and quality in everything we do
+                             
+                       </p >
+                    </div>
+                </div>
+
+                <div class="col-md-6 animated slideInRight">
+                    <div class="why-we-thum ">
+                    <img src="{{ asset('img/mission-c.jpg') }}"alt="">
+                      
+                    </div>
+                </div>
+            </div>
+
+          
         </div>
     </div>
-     <!-- Mission & vission immobilier end -->
+
+ 
+
+    
+   
+     <!-- Mission & vission immobilier  -->
 
 
     <div class="feature-area gray-bg section-padding-100-50" id="service">
@@ -116,12 +142,12 @@
                     <div class="single-feature-area text-center">
                         <!-- Feature Icon -->
                         <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/1.svg') }}" alt="">
+                            <img src="{{ asset('img/icon-img/teams.png') }}" alt="">
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
                             <h4>Team</h4>
-                            <p class="mb-0">We have a experienced Team<a href="{{ url('/service/travaux/1')}}"><br>Meet our team</a></p>
+                             <a style="color:#273d88" href="{{ url('/service/travaux/1')}}">Meet our team</a>
                         </div>
                     </div>
                 </div>
@@ -131,12 +157,12 @@
                     <div class="single-feature-area text-center">
                         <!-- Feature Icon -->
                         <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/2.svg') }}" alt="">
+                            <img src="{{ asset('img/icon-img/architect.png') }}" alt="">
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                        <h4>Project</h4>
-                            <p class="mb-0">text........................<a href="{{ url('/service/travaux/2')}}"><br>Read more</a></p>
+                        <h4 >Project</h4>
+                         <a style="color:#273d88" href="{{ url('/service/travaux/2')}}">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -147,20 +173,66 @@
                     <div class="single-feature-area text-center">
                         <!-- Feature Icon -->
                         <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/2.svg') }}" alt="">
+                            <img src="{{ asset('img/icon-img/materials.png') }}" alt="">
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
                         <h4>Materiels</h4>
-                            <p class="mb-0">text........................<a href="{{ url('/service/travaux/3')}}"><br>Read more</a></p>
+                            <a style="color:#273d88" href="{{ url('/service/travaux/3')}}">Read more</a>
                         </div>
                     </div>
-                </div>
-
-            
+                </div>           
             </div>
         </div>
     </div>
+
+<!-- Our clients -->
+    <div class=" section-padding-0-50 bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h6 class="section-padding-0-20" style="color:#0a0a0a">Our Clients</h6>
+                        <div class="container client-ligne" style=""></div>
+                    </div>
+                </div>
+            </div>
+
+            
+                        <!-- start Content -->
+                        <div class="row justify-content-center">                          
+                                <div class="" style="width: 5rem; margin-right:3%"  >
+                                    <img src="{{ asset('img/projet-constr/africa-gaz.png') }}" class="" alt="..."  >
+                                       
+                                </div>
+                                                   
+                                <div class="" style="width: 5rem; margin-right:3%">
+                                    <img src="{{ asset('img/projet-constr/marocgaz.jpg') }}" class="" alt="...">                                       
+                                </div>
+                          
+                                <div class="" style="width: 5rem; margin-right:3%">
+                                    <img src="{{ asset('img/projet-constr/algha-assurance.jpg') }}" class="-" alt="...">                                       
+                                </div>
+                                                    
+                                <div class="" style="width: 5rem; margin-right:3%">
+                                    <img src="{{ asset('img/projet-constr/idemia.jpg') }}" class="" alt="...">                                       
+                                </div>
+
+                                <div class="" style="width: 10rem; margin-right:3%">
+                                    <img src="{{ asset('img/projet-constr/akwa.jpg') }}" class="" alt="...">                                       
+                                </div>   
+                                
+                                <div class="" style="width: 10rem; margin-right:3%">
+                                    <img src="{{ asset('img/projet-constr/four-Seasons.jpg') }}" class="" alt="...">                                       
+                                </div> 
+                        </div>  
+                        <!-- end projet maroc -->
+        </div>
+    </div>
+
+
+
+
      <!--================réalisé par anwar mohamed elkahza =================-->
 
     

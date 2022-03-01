@@ -13,7 +13,7 @@
         <div class="col-12">
             <div class="col-md-6 col-lg-12">
                 <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> Les Services </h3> 
+                    <h3 style="font-family:Times New Roman, Times, serif;"> Blog </h3> 
                 </div>
                
             </div>

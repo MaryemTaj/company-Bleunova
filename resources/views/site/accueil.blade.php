@@ -11,8 +11,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">Import Export </h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">...</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s"> Import Export </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">International trade and the exchange of goods and services between countries.</h5>
                                 <div class="slider-btn mt-30">
                                     <a class="boxed-btn" href="service/exportimport"><span>Start Now</span></a>
                                 </div>
@@ -37,8 +37,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s"> Construction FitOut</h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">The Fit-Out Construction Process and Different Types of Fit-Outs</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">General Construction </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">Construction, Development, Maintenance, Interior architecture</h5>
                                 <div class="slider-btn mt-30">
                                     <a class="boxed-btn" href="service/travaux"><span>Start Now</span></a>
                                 </div>
@@ -62,8 +62,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">it-solution</h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">....</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">IT-Solution</h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">IT and Mobile Applications, E-commerce, Websites, Software, Solutions</h5>
                                 <div class="slider-btn mt-30">
                                     <a class="boxed-btn" href="service/it"><span>Start Now</span></a>
                                 </div>
@@ -74,6 +74,31 @@
                             <div class="welcome-thumb-slider mt-70">
                             <a href="service/it">
                                 <img  style="width:auto;height:410px;background-color:#0a5ea2;border-radius: 5%;" src="{{ asset('img/dv.jpg') }}" alt="" >
+                            </a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="single-slider">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="welcome-content home-slider mt-we-70 mt-sm-100">
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">Real Estate</h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">Real Estate Transactions,Land,Residential,Commercial,Industrial</h5>
+                                <div class="slider-btn mt-30">
+                                    <a class="boxed-btn" href="service/it"><span>Start Now</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="welcome-thumb-slider mt-70">
+                            <a href="service/it">
+                                <img  style="width:auto;height:410px;background-color:#0a5ea2;border-radius: 5%;" src="{{ asset('img/RE.jpg') }}" alt="" >
                             </a>    
                             </div>
                         </div>
@@ -107,9 +132,9 @@
                             <div class="col-md-6 col-lg-8 animated slideInRight">
                                 <div class="single-call-desc-content">
                                   
-                                    <p class="text-black  mb-0 mt-0" >Al Majlis Trading is a company founded on local traditions that have evolved over many years to help us become a leading importer in Qatar. Al Majlis Trading imports
-                                                                  the highest quality products from around the world to fulfil the extensive needs of an economy experiencing unprecedented growth.
-                                  </p>
+                                    <p class="text-black  mb-0 mt-0" ><b>Blue Nova L.L.C</b> is a company founded on local traditions that have evolved over many years to help us become a leading in Morroco. Blue Nova Trading 
+                                                                  the highest quality products and services from around the world to fulfil the extensive needs of an economy experiencing unprecedented growth.
+</p>
                                 
                                 </div>
                             </div>
@@ -128,7 +153,7 @@
                 <div class="col-md-8 col-lg-7 section-padding-10">
                     <div class="section-title t_center  animated slideInRight  wow zoomIn" data-wow-delay="0.2s">
                         <div class="ligne"></div>
-                        <h2 class="ligne" >Our Service</h2>
+                        <h1 class="ligne" >Our Service</h1>
                         <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
                     </div>
                 </div>
@@ -141,7 +166,7 @@
                     <div class="content-box">
                         <div class="inner-box" >
 
-                        <div class="row "    >
+                        <div class="row">
                              <!-- Service Export Import -->               
                             <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s" >
                                 <div class="single-blog-area  border-hover"  >
@@ -155,9 +180,10 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="{{url('/service/it')}}">
-                                            <h5 class="ligne">Export Import</h5>
+                                            <h5 class="ligne">Import Export </h5>
                                         </a>
-                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, debitis?</span>
+                                        <span class="ligne">International trade for.
+Commercial activity whose purpose is the acquisition of products from abroad and the sale of national products abroad</span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                
@@ -177,13 +203,35 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="service/travaux">
-                                            <h5 class="ligne">Construction</h5>
+                                            <h5 class="ligne">General Construction</h5>
                                         </a>
-                                        <span class="ligne">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quas!</span>
+                                        <span class="ligne">The general construction is an activity of implementation or installation on the customer's site and which concerns both new work and renovation .</span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                 
                            </div> 
+
+ <!-- Service autre service -->               
+ <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
+                                <div class="single-blog-area  border-hover">
+                                     <!-- -->
+                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
+                                        <a  href="service/it">
+                                            <img src="{{ asset('img/dv.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
+                                        </a>                            
+                                     </div>
+                                     </div>
+                                    <!-- Content -->
+                                    <div class="single-blog-content mt-10">                          
+                                        <a href="service/it">
+                                            <h5 class="ligne">IT-Solution</h5>
+                                        </a>
+                                        <span class="ligne">It technology refers to computers,storage,networks and devices,infrastructures and processes to create, process,store,secure and exchange datta.</span>
+                                        <p><a href=""></a></p>
+                                    </div>                        
+                               
+                           </div> 
+                           
 
                             <!-- Service it-solution-->               
                             <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
@@ -200,34 +248,17 @@
                                         <a href="{{url('/service/realEstate')}}">
                                             <h5 class="ligne">Real Estate</h5>
                                         </a>
-                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, repellendus?</span>
+                                        <span class="ligne">
+
+                                        Real estate, as compared to movable property, is property that cannot be moved, the Latin root of the word "real estate" meaning "that does not move.
+                                        </span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                
                            </div> 
 
                                          
-                             <!-- Service autre service -->               
-                             <div class="col-md-6 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.6s">
-                                <div class="single-blog-area  border-hover">
-                                     <!-- -->
-                                     <div class="blog-thumb" style="width: 150;height: 10;">                          
-                                        <a  href="service/it">
-                                            <img src="{{ asset('img/dv.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
-                                        </a>                            
-                                     </div>
-                                     </div>
-                                    <!-- Content -->
-                                    <div class="single-blog-content mt-10">                          
-                                        <a href="service/it">
-                                            <h5 class="ligne">It Solution</h5>
-                                        </a>
-                                        <span class="ligne">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, repellendus?</span>
-                                        <p><a href=""></a></p>
-                                    </div>                        
-                               
-                           </div> 
-                           
+                            
 
                         </div>
                             <!--
@@ -320,48 +351,48 @@
                     <div class="single-product-build-area">
                         <!-- Product Thumb -->
                         <div class="product-thumb home-3">
-                            <img src="img/icon-img/11.svg" alt="">
+                            <img src="img/mission-home.jpg" alt="">
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>title</h4>
+                                <h4>Mission</h4>
                             </a>
-                            <p class="mb-0 ">text</p>
+                            <p class="mb-0 ">Our mission is to be one of the biggest companies in the world</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Single Product Build -->
-                <div class="col-md-6 col-lg-4 product-pt-80  animate__fadeInUp   wow zoomIn" data-wow-delay="0.6s">
+                <div class="col-md-6 col-lg-4   animate__fadeInUp   wow zoomIn" data-wow-delay="0.6s">
                     <div class="single-product-build-area">
                         <!-- Product Thumb -->
                         <div class="product-thumb home-3">
-                            <img src="img/icon-img/12.svg" alt="">
+                            <img src="img/vision-home.jpg" alt="">
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>title</h4>
+                                <h4>Vision</h4>
                             </a>
-                            <p class="mb-0">text</p>
+                            <p class="mb-0">we are looking to improve our strategy of work ...</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Single Product Build -->
-                <div class="col-md-6 col-lg-4 product-pt-40  animate__fadeInUp   wow zoomIn" data-wow-delay="0.8s">
+                <div class="col-md-6 col-lg-4   animate__fadeInUp   wow zoomIn" data-wow-delay="0.8s">
                     <div class="single-product-build-area">
                         <!-- Product Thumb -->
                         <div class="product-thumb home-3">
-                            <img src="img/icon-img/13.svg" alt="">
+                            <img src="img/wedo.jpg" alt="">
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>title</h4>
+                                <h4>What we do </h4>
                             </a>
-                            <p class="mb-0">text</p>
+                            <p class="mb-0">Our company is working in multiple field of industry </p>
                         </div>
                     </div>
                 </div>
@@ -436,8 +467,10 @@
         <div class="container">
             <div class="row" >
                 <div class="col-12" >
+              <!--  <h2 class="text-center ">Blog</h2>-->
                     <div class="app-shot">
                     @foreach($posts as $post)
+                 
                     <a  href="{{ url('/blog/'.$post->slug)}}" >
                         <div><img  src="{{ asset('/storage/'.$post->image)}}" alt=""  width="170" height="100" ></div>
                     </a>    

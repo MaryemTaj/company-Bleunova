@@ -8,14 +8,30 @@
    
      <!-- flash Message  form contact -->
     <!-- Contact Area Start -->
-    <section class="contact-our-area section-padding-100-0" id="contact">
+    <section class="breadcrumb breadcrumb_bg bg-overlay bg-img" style="background-image: url({{url('img/contact.jpg')}});">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb_iner">
+                        <div class="breadcrumb_iner_item text-center">
+                            <h2>Contact with our support</h2>
+                            <p><a href="{{ url('/') }}">Home .</a> <span>Contact</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-our-area section-padding-100-0" id="contact" >
         <div class="container">
+
+        
+
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h6>Contact</h6>
-                        <h4>Contact with our support</h4>
-                       
+                        
                        @if(Session::has('error'))
                        <div class="alert alert-danger">
                            {{Session::get('error')}}
@@ -49,32 +65,32 @@
                                     </div>
                                     <div class="contact-info">
                                         <h5 class="mb-1">Our head office address</h5>
-                                        <p class="mb-0">202, Grasselli Street.</p>
+                                        <p class="mb-0">181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</p>
                                     </div>
                                 </div>
                             </div>
 
                             <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center mt-50">
+                            <div class="single-contact-info d-flex align-items-center section-padding-40-40">
                                 <div class="icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="contact-info">
                                     <h5 class="mb-1">Call Us On</h5>
-                                    <p class="mb-0">+0611111</p>
+                                    <p class="mb-0">05</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="contact-information">
                             <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center mt-50">
+                            <div class="single-contact-info d-flex align-items-center  ">
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="contact-info">
                                     <h5 class="mb-1">Email Us At</h5>
-                                    <p class="mb-0">themezome@gmail.com</p>
+                                    <p class="mb-10">Contact@bluenova.ma</p>
                                 </div>
                             </div>
                         </div>

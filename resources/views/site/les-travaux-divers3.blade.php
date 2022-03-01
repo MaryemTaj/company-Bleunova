@@ -3,58 +3,63 @@
 @extends('master')
     @section('content')
 <br><br><br><br>
-
-<div class="container section-padding-10">
-    <div class="row">
-        <div class="col-12">
-            <div class="col-md-6 col-lg-12">
-               
-                <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> title</h3> 
-                </div>
-            </div>
-        </div>
+<div class="container">
+  <div class="row justify-content-center  section-padding-50-50 ">
+    <h4 class="">Materials</h4>
+  </div>
+</div>
+<div class="container">
+  <div class="row text-center section-padding-100-50">
+  <div class="col-md-6 col-lg-3  "> 
+      <div class="shadow-lg  mb-5 bg-light rounded border "> 
+        <img src="{{ asset('img/materials-constr/camion.png') }}" alt="" style="width:5rem" class="">
+        <h4>Camion</h4>
+       
+      </div>  
     </div>
+
+
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="shadow-lg  mb-5 bg-light rounded border hover"> 
+        <img src="{{ asset('img/materials-constr/grues.png') }}" alt="" style="width:5rem" class="">
+        <h4>Grues</h4>
+       
+      </div>  
+    </div>
+
+
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="shadow-lg  mb-5 bg-light rounded border "> 
+        <img src="{{ asset('img/materials-constr/bettonniere.png') }}" alt="" style="width:5rem" class="">
+        <h4>Betonniere</h4>
+      
+      </div>  
+    </div>
+
+
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="shadow-lg  mb-5 bg-light rounded border "> 
+        <img src="{{ asset('img/materials-constr/manu.jpg') }}" alt="" style="width:5rem" class="">
+        <h4>Manutention</h4>
+       
+      </div>  
+    </div>
+
+    <div class="col-md-6 col-lg-3  "> 
+      <div class="shadow-lg  mb-5 bg-light rounded border "> 
+        <img src="{{ asset('img/materials-constr/charg.png') }}" alt="" style="width:5rem" class="">
+        <h4>Chargeur</h4>
+       
+      </div>  
+    </div>
+
+  </div>
+
 </div>
 
+
 <!-- header -->
-    <div class="call-to-desc-area">
-        <div class="container section-padding-100">
-            <div class="row">
-                <div class="col-12">
-                    <div class="call-to-action-area">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="call-to-title text-center mb-50">
-                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">title</h2>
-                                </div>
-                            </div>
-
-                            <!-- Single Content -->
-                            <div class="col-md-6 col-lg-4 animated slideInRight">
-                                <div class="single-call-desc-content ca-mb-50">
-                                <div class="feature-img">
-                            <img class="img-fluid" src="" alt="" style=" border-radius: 8px;">
-                        </div>
-                                </div>
-                            </div>
-
-                            <!-- Single Content -->
-                         
-
-                            <!-- Single Content -->
-                            <div class="col-md-6 col-lg-8 animated slideInRight">
-                                <div class="single-call-desc-content">
-                                  
-                                    <p class="text-black  mb-0 " >text</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <!--================ Blog Area end =================-->
      <!--================réalisé par anwar mohamed elkahza =================-->
 
