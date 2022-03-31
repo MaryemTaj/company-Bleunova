@@ -32,8 +32,7 @@
                     </div>
                     <ul class="social-list">
                        
-                    </ul>
-                   
+                    </ul>                   
                 </div>
             </div>      
         </div>
