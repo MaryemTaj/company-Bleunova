@@ -11,7 +11,7 @@
                         
                             <a href="#">  <img src=" {{ asset('img/BlueNova.png') }}" alt="" style="width: 200px;"></a>
                         </div>
-                        <p class="mt-30">Blue Nova Social Media</p>
+                        <p class="mt-30">{{__('follow_us')}}</p>
                         <!-- Contact Icon -->
                         <div class="footer-contact-icon">
                             <a href="#"><i class="fa fa-facebook-f"></i></a>
@@ -25,10 +25,10 @@
                 <!-- Footer Widget -->
                 <div class="col-sm-6 col-lg-3">
                     <div class="footer-single-widget mb-50">
-                        <h4>About Us</h4>
+                        <h4>{{__('about_company')}}</h4>
                         <ul>
                             
-                            <li><a href="{{ url('/about') }}">Company</a></li>
+                            <li><a href="{{ url(app()->getLocale().'/about') }}">{{__('name_company')}}</a></li>
                           
                         </ul>
                     </div>
@@ -39,10 +39,10 @@
                     <div class="footer-single-widget mb-50">
                         <h4>Services</h4>
                         <ul>
-                        <li><a href="{{url('/service/exportimport')}}">Import Export </a></li>
-                        <li><a href="{{url('/service/travaux')}}">General Construction</a></li>
-                        <li><a href="{{url('/service/it')}}">IT-Solution</a></li>
-                        <li><a href="{{url('/service/exportimport')}}">Rale Estate</a></li>
+                        <li><a href="{{url(app()->getLocale().'/service/exportimport')}}">{{__('service-import-export_title')}} </a></li>
+                        <li><a href="{{url(app()->getLocale().'/service/travaux')}}">{{__('service-construction_title')}}</a></li>
+                        <li><a href="{{url(app()->getLocale().'/service/it')}}">{{__('service-it_title')}}</a></li>
+                        <li><a href="{{url(app()->getLocale().'/service/realEstate')}}">{{__('service-real-estate_title')}}</a></li>
                        
                         </ul>
                     </div>
@@ -53,7 +53,7 @@
                     <div class="footer-single-widget mb-50">
                         <h4>Contact info</h4>
                         <ul>
-                            <li><a href="#"><i class="ti-location-pin"></i>Casablanca, Maroc</a></li>
+                            <li><a href="#"><i class="ti-location-pin"></i>Casablanca, {{__('morocco')}}</a></li>
                             <li><a href="#"><i class="ti-pin2"></i>181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</a></li>
                             <li><a href="mailto:Fadel.boukined@bluenova.ma"><i class="ti-email"></i>Contact@bluenova.ma</a></li>
                             <li><a href="tel:+212668044603"><i class="ti-mobile"></i> </a></li>
@@ -74,7 +74,7 @@
                 <div class="col-md-6">
                     <div class="copy-right-menu">
                         <ul>
-                            <li><a href="/service/company-policy">Privace &amp; Policy</a></li>
+                            <li><a href="app()->getLocale()/service/company-policy">{{__('privacy')}}</a></li>
                             <li><a href="#">Faq's</a></li>
                             <li><a href="#">Get a Quote</a></li>
                         </ul>
@@ -84,7 +84,7 @@
                 <!-- Copy Right Content -->
                 <div class="col-md-6 text-right mt-sm-cu-30">
                     <div class="copy-right-content">
-                        <p>Copyright © By Bluenova 2021. All right reserved.</p>
+                        <p>{{__('copyright')}}</p>
                     </div>
                 </div>
             </div>

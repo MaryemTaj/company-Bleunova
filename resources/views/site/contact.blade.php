@@ -14,8 +14,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Contact with our support</h2>
-                            <p><a href="{{ url('/') }}">Home .</a> <span>Contact</span></p>
+                            <h2>{{__('contact_page_title')}}</h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>{{__('contact')}}</span></p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                                         <i class="fa fa-location-arrow"></i>
                                     </div>
                                     <div class="contact-info">
-                                        <h5 class="mb-1">Our head office address</h5>
+                                        <h5 class="mb-1">{{__('address_title')}}</h5>
                                         <p class="mb-0">181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</p>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <h5 class="mb-1">Call Us On</h5>
+                                    <h5 class="mb-1">{{__('tele_title')}}</h5>
                                     <p class="mb-0">05</p>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                                     <i class="fa fa-envelope"></i>
                                 </div>
                                 <div class="contact-info">
-                                    <h5 class="mb-1">Email Us At</h5>
+                                    <h5 class="mb-1">{{__('email')}}</h5>
                                     <p class="mb-10">Contact@bluenova.ma</p>
                                 </div>
                             </div>
@@ -110,7 +110,7 @@
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30"  name="name" id="name"  value="{{old('name')}}" class="input  @if($errors->has('name'))is-danger @endif" placeholder="First Name" required>
+                                                <input type="text" class="form-control mb-30"  name="name" id="name"  value="{{old('name')}}" class="input  @if($errors->has('name'))is-danger @endif" placeholder="{{__('name')}}" required>
                                             </div>
                                             @if($errors->has('name'))
                                                 <p class="help is-danger">{{$errors->first('name')}}</p>
@@ -131,7 +131,7 @@
                                          <!-- Form Group -->
                                          <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="subject" value="{{old('subject')}}" class="input  @if($errors->has('subject'))is-danger @endif"  id="subject" placeholder="Subject" required>
+                                                <input type="text" class="form-control mb-30" name="subject" value="{{old('subject')}}" class="input  @if($errors->has('subject'))is-danger @endif"  id="subject" placeholder="{{__('subject')}}" required>
                                             </div>
                                             @if($errors->has('subject'))
                                                  <p class="help is-danger">{{$errors->first('subject')}}</p>
@@ -149,7 +149,7 @@
                                         </div>
                                         <!-- Button -->
                                         <div class="col-12 text-center">
-                                            <button type="submit" class="btn boxed-btn">Send Message</button>
+                                            <button type="submit" class="btn boxed-btn">{{__('send_message_button')}}</button>
                                         </div>
                                     </div>
                                 </div>

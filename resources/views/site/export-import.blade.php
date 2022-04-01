@@ -14,7 +14,7 @@
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
                             <h2>Service Export Import</h2>
-                            <p><a href="{{ url('/') }}">Home .</a> <span>Service Export Import </span></p>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Service Export Import </span></p>
                         </div>
                     </div>
                 </div>

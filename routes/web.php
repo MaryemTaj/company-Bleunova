@@ -17,6 +17,9 @@ Route::get('/menublade', function () {
     return view('menublade');
 });
 
+Route::Redirect('/','/en' );
+
+Route::group(['prefix' => '{language}'],function (){
 Route::get('/','SiteController@index');
 Route::get('/services',"SiteController@services");
 Route::get('/contact',"SiteController@contact");
@@ -48,7 +51,7 @@ Route::get('/service/realEstate/2',"ServicesController@pageRealEstate2");
 Route::get('/service/realEstate/3',"ServicesController@pageRealEstate3");
 
 Route::get('/service/company-policy',"ServicesController@pageCompanyPolicy");
-
+});
 
 // Route::get('/email', [App\Http\Controllers\EmailController::class, 'create']);
 // Route::post('/email', [App\Http\Controllers\EmailController::class, 'sendEmail'])->name('send.email');

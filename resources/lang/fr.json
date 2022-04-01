@@ -1,0 +1,59 @@
+{
+    "about_company":"À propos de Bluenova",
+    "follow_us":"Suivez nous",
+    "copyright":"Copyright © par Bluenova 2021. Tous droits réservés.",
+    "morocco":"Maroc",
+    "privacy":"Politique de confidentialité",
+
+    "name_company":"Bluenova",
+    "type_company":"SARL ",
+  
+
+    "home":"Acceuil",
+    "contact":"Contactez-nous",
+    "Service":"Services",
+    "about":"À propos ",
+    "blog":"Blog",
+
+
+    "service-it_title":"Solution IT",
+    "service-import-export_title":"Import Export",
+    "service-construction_title":"Construction",
+    "service-real-estate_title":"Immobilisation",
+  
+    "service-it_description":"LA TECHNOLOGIE INFORMATIQUE SE RÉFÈRE AUX ORDINATEURS, AU STOCKAGE, AUX RÉSEAUX ET AUX DISPOSITIFS, AUX INFRASTRUCTURES ET AUX PROCESSUS POUR CRÉER, TRAITER, STOCKER, SÉCURISER ET ÉCHANGER LES DONNÉES.",
+    "service-import-export_description":"INTERNATIONAL TRADE FOR. COMMERCIAL ACTIVITY WHOSE PURPOSE IS THE ACQUISITION OF PRODUCTS FROM ABROAD AND THE SALE OF NATIONAL PRODUCTS ABROAD",
+    "service-construction_description":"COMMERCE INTERNATIONAL POUR. ACTIVITÉ COMMERCIALE DONT L'OBJET EST L'ACQUISITION DE PRODUITS À L'ÉTRANGER ET LA VENTE DE PRODUITS NATIONAUX À L'ÉTRANGER",
+    "service-real-estate_description":"L'IMMOBILIER, PAR RAPPORT AUX BIENS MEUBLES, EST UNE PROPRIÉTÉ QUI NE PEUT PAS ÊTRE DÉPLACÉE, LA RACINE LATINE DU MOT IMMOBILIER SIGNIFIANT QUI NE BOUGE PAS.",
+
+
+    "button_start_now":"En savoir plus",
+
+
+    "introduction_company":"est une entreprise fondée sur des traditions locales qui ont évolué au cours de nombreuses années pour nous permettre de devenir un leader au Maroc. Blue Nova commercialise des produits et des services de la plus haute qualité provenant du monde entier afin de répondre aux besoins étendus d'une économie qui connaît une croissance sans précédent.",
+    "our_service":"Nos services",
+    "vision_company_title" :"Vision",
+    "mission_company_title":"Mission",
+    "vision_company_description" :"nous cherchons à améliorer notre stratégie de travail ...",
+    "mission_company_description":"Notre mission est d'être l'une des plus grandes entreprises au monde",
+    "what_we_do_title":"ce que nous faisons ",
+    "what_we_do_description":"Notre entreprise travaille dans plusieurs domaines de l'industrie",
+    "project_title":"Projets",
+    "awards":"récompenses",
+    "client_title":"Clients",
+    "work_time":"Heure De Travaille",
+
+    "contact_page_title":"Contactez notre support",
+
+    "address_title":"Adresse de notre siège",
+    "tele_title":"Applez-nous ",
+    "email_title":"Email",
+
+    "name":"votre nom",
+    "email":"Email",
+    "subject":"Objet",
+    "send_message_button":"Envoyer message"
+
+  
+    
+}

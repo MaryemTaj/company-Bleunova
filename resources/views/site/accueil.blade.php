@@ -14,7 +14,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay="0.4s"> Import Export </h3>
                                 <h5 class="wow fadeInUp" data-wow-delay="0.6s">International trade and the exchange of goods and services between countries.</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/exportimport"><span>Start Now</span></a>
+                                    <a class="boxed-btn" href="service/exportimport"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay="0.4s">General Construction </h3>
                                 <h5 class="wow fadeInUp" data-wow-delay="0.6s">Construction, Development, Maintenance, Interior architecture</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/travaux"><span>Start Now</span></a>
+                                    <a class="boxed-btn" href="service/travaux"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay="0.4s">IT-Solution</h3>
                                 <h5 class="wow fadeInUp" data-wow-delay="0.6s">IT and Mobile Applications, E-commerce, Websites, Software, Solutions</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/it"><span>Start Now</span></a>
+                                    <a class="boxed-btn" href="service/it"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay="0.4s">Real Estate</h3>
                                 <h5 class="wow fadeInUp" data-wow-delay="0.6s">Real Estate Transactions,Land,Residential,Commercial,Industrial</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/it"><span>Start Now</span></a>
+                                    <a class="boxed-btn" href="service/it"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +132,7 @@
                             <div class="col-md-6 col-lg-8 animated slideInRight">
                                 <div class="single-call-desc-content">
                                   
-                                    <p class="text-black  mb-0 mt-0" ><b>Blue Nova L.L.C</b> is a company founded on local traditions that have evolved over many years to help us become a leading in Morroco. Blue Nova Trading 
-                                                                  the highest quality products and services from around the world to fulfil the extensive needs of an economy experiencing unprecedented growth.
+                                    <p class="text-black  mb-0 mt-0" ><b>Blue Nova {{__('type_company')}}</b> {{__('introduction_company')}}
 </p>
                                 
                                 </div>
@@ -153,7 +152,7 @@
                 <div class="col-md-8 col-lg-7 section-padding-10">
                     <div class="section-title t_center  animated slideInRight  wow zoomIn" data-wow-delay="0.2s">
                         <div class="ligne"></div>
-                        <h1 class="ligne" >Our Service</h1>
+                        <h1 class="ligne" >{{__('our_service')}}</h1>
                         <!-- <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p> -->
                     </div>
                 </div>
@@ -356,9 +355,9 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>Mission</h4>
+                                <h4>{{__('mission_company_title')}}</h4>
                             </a>
-                            <p class="mb-0 ">Our mission is to be one of the biggest companies in the world</p>
+                            <p class="mb-0 ">{{__('mission_company_description')}}</p>
                         </div>
                     </div>
                 </div>
@@ -373,9 +372,9 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>Vision</h4>
+                                <h4>{{__('vision_company_title')}}</h4>
                             </a>
-                            <p class="mb-0">we are looking to improve our strategy of work ...</p>
+                            <p class="mb-0">{{__('vision_company_description')}}</p>
                         </div>
                     </div>
                 </div>
@@ -390,9 +389,9 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
                             <a href="#">
-                                <h4>What we do </h4>
+                                <h4>{{__('what_we_do_title')}} </h4>
                             </a>
-                            <p class="mb-0">Our company is working in multiple field of industry </p>
+                            <p class="mb-0">{{__('what_we_do_description')}} </p>
                         </div>
                     </div>
                 </div>
@@ -416,7 +415,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <div class="counter-number">
                             <h3><span class="counter">11</span><span>K</span></h3>
-                            <p>Clients</p>
+                            <p>{{__('client_title')}}</p>
                         </div>
                     </div>
                 </div>
@@ -428,7 +427,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <div class="counter-number">
                             <h3><span class="counter">580</span><span>+</span></h3>
-                            <p>Projects</p>
+                            <p>{{__('project_title')}}</p>
                         </div>
                     </div>
                 </div>
@@ -440,7 +439,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <div class="counter-number">
                             <h3><span class="counter">2400</span><span>H</span></h3>
-                            <p>Work time</p>
+                            <p>{{__('work_time')}}</p>
                         </div>
                     </div>
                 </div>
@@ -452,7 +451,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <div class="counter-number">
                             <h3><span class="counter">35</span></h3>
-                            <p>Awards</p>
+                            <p>{{_('awards')}}</p>
                         </div>
                     </div>
                 </div>
