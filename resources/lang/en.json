@@ -14,10 +14,19 @@
     "about":"About us",
     "blog":"Blog",
 
+
+
     "service-it_title":"IT-Solution",
     "service-import-export_title":"Import Export",
     "service-construction_title":"General Construction",
     "service-real-estate_title":"Rale Estate",
+
+    "service-it_desc_slide":"IT and Mobile Applications, E-commerce, Websites, Software, Solutions",
+    "service-import-export_desc_slide":"InternationGeneral Constructional trade and the exchange of goods and services between countries.",
+    "service-construction_desc_slide":"Construction, Development, Maintenance, Interior architecture",
+    "service-real-estate_desc_slide":"Real Estate Transactions,Land,Residential,Commercial,Industrial",
+
+
   
     "service-it_description":"IT TECHNOLOGY REFERS TO COMPUTERS,STORAGE,NETWORKS AND DEVICES,INFRASTRUCTURES AND PROCESSES TO CREATE, PROCESS,STORE,SECURE AND EXCHANGE DATA.",
     "service-import-export_description":"INTERNATIONAL TRADE FOR. COMMERCIAL ACTIVITY WHOSE PURPOSE IS THE ACQUISITION OF PRODUCTS FROM ABROAD AND THE SALE OF NATIONAL PRODUCTS ABROAD",
@@ -45,6 +54,7 @@
     "contact_page_title":"Contact with our support",
 
     "address_title":"Our head office address",
+    "adress":"181,Street Abdelmoumen,Res Al Yamama C, 1st floor,Hospital hanche, Casablanca",
     "tele_title":"Call us on",
     "email_title":"Eamil us at",
 
@@ -54,15 +64,128 @@
     "send_message_button":"Send message",
 
 
-    "service_page_title":"Service Export Import"
+    "service_page_title":"Service Export Import",
 
    
     
+    "about-import-export_title":"About Import Export",
+    "about-import-export_description":"International trade is the exchange of goods and services between countries. This type of trade has existed for centuries, but it is experiencing a new boom due to economic globalization. International trade theory is the branch of economics that studies and models international trade. Commercial activity whose purpose is the acquisition of products from abroad and the sale of national products abroad.",
+    "vision_title":"Our Vision",
+    "vision-import-export_description":"To be Globally recognized import – export company that put quality, service, and value as priority to satisfy the needs of our customers, employees and stakeholders.",
+    "mission_title":"Our Mission",
+    "mission-import-export_description1":"To offer our customers products with superior quality and value",
+    "mission-import-export_description2":"To create peaceful and enjoyable work environment for our employees",
+    "mission-import-export_description3":"To contribute to the growth of society as we grow the company’s business",
+    "team":"Team",
+    "our_client":"Our clients",
+    "meet_our_team":"Meet our team",
+    "team_import_export":"Team Import Export",
+    "commercial":"Commercial",
+    "technician":"Technician",
+    "enginner":"Enginner",
+    "construction_manager":"Construction manager",
+    
+    "about-it_title":"About IT Solution",
+    "about-it_description":"Information technology refers to the use of computers, storage, networks and devices, infrastructures and processes to create, process, store, secure and exchange all kinds of electronic data. Information technology is generally used in the context of business operations, as opposed to technology used in personal or entertainment settings. Business use of IT includes computing and telephony",  
+    "vision-it_description":"Thanks to our enthusiasm, our teamwork and our values, we intend to satisfy the needs of all those who, throughout the Moroccan territory, love the quality of service, and this through the best achievements that builders, developers or fitters can offer, aided by the best technologies, by the intellectual effort that comes from the quest for beauty and quality in everything we do",
+    "mission-it_description1":"The mission of the Department of Information Technology is to build a comprehensive and quality technology infrastructure, establish and maintain an efficient operating environment, and provide quality, timely, cost-effective and reliable technology services.",
+    "service-it_web":"Website Design & Development",
+    "service-it_app":"MOBILE APPS DEVELOPMENT",
+     "button_plus":"Read more",
+     "button_contact_us":"CONTACT US",
+
+     "all_project":"All project",
+
+     "camion":"Camion",
+     "grues":"Grue",
+     "betonniere":"Betonniere",
+     "manutention":"Manutention",
+     "chargeur":"charger",
 
 
 
+     
+    "about-construction_title":"About construction",
+    "about-construction_description":"The construction activity is essentially an activity of implementation or installation on the customer's site and which concerns both new work and renovation, repair or maintenance.",
+    "mission-construction_description":"Thanks to our enthusiasm, our teamwork and our values, we intend to satisfy the needs of all those who, throughout the Moroccan territory, love the quality of service, and this through the best achievements that builders, developers or fitters can offer, aided by the best technologies, by the intellectual effort that comes from the quest for beauty and quality in everything we do",
+    "vision-construction_description":"Our VisionIn the vision that we have developed, we intend to be the benchmark for building, fittings and interior design. An innovative company that offers the best products and services and that, thanks to this, grows and becomes a leader in the market",
+    "project":"Les projets",
+    "material":"Matériels",
 
 
 
+    "about-real-estate_title":"About real estate",
+    "about-real-estate_description":"Real estate, as compared to movable property, is property that cannot be moved, the Latin root of the word “real estate” meaning “that does not move”. This may concern bare land, a building or part of a building for residential, office, industrial use, etc.",   
+    "vision-real-estate_description":"Against the tide of an ever more rushed society, my agents and I are committed to taking all the time necessary for our clients - sellers and buyers. The time to visit the places, to flush out its obvious charms and its hidden qualities; to question its weak points or to improve. Time also to probe our customers' expectations, explore them, question them. It is an exciting process involving reflection, analysis and observation: that of the good, its context, what is exchanged on this market. In short, our expertise is always accompanied by patience and humility.",
+    "mission-real-estate_description":"Connect sellers and potential buyers of real estate. Its main tasks are to :",
+    "mission-real-estate_description1":"- Evaluate properties (real estate diagnosis).",
+    "mission-real-estate_description2":"- Prospecting customers.",
+    "mission-real-estate_description3":"- Advise clients (price estimate, administrative procedures, legal aspects, etc.).",
+    "mission-real-estate_description4":"- Create classified ads for properties for sale.",
+    "mission-real-estate_description5":"- Draft various types of documents (pre-contract).",
+    "mission-real-estate_description6":"- Organize apartment visits.",
+    "mission-real-estate_description7":"- Accompaniment of clients until the sale of the property.",
 
-}
+
+    "service-it_web_introduction1":"Today’s business websites need to be easy to navigate, intuitive, attractive and persuasive. More importantly, they need to be responsive, because so many potential customers use smartphones and tablets to access the internet.",
+    "service-it_web_introduction2":"Blue nova is a website creation expert to create influential websites that attract and convert potential customers, ranks at the top of search engines, and deliver new business to the door of our customers every single day. ",
+    "service-it_web_introduction3":"Our websites offer intuitive and unique experiences with state of the art designs",
+    "what_we_do_description_web":"We have a dedicated team of web developers and designers ready to work with you to make your company available via a robust website that is engaging. To keep your company accessible and at the cutting edge of technology, we create sites that are visually appealing, fast and most importantly secure.",
+     "how_we_do_it_title1":"Gather Requirements",
+     "how_we_do_it_title2":"Plan & Present Design and Wire-frames",
+     "how_we_do_it_title3":"Initialize Development",
+     "how_we_do_it_title4":"Quality Assurance",
+     "how_we_do_it_title5":"Present Alpha Build",
+     "how_we_do_it_title6":"Launch and Deploy",
+     "how_we_do_it_title7":"Support & Maintenance",
+     "how_we_do_it":"How we do it",
+     "how_we_do_it_descriprion1":"Generating a list of requirements from all the stakeholders.",
+     "how_we_do_it_descriprion2":"Requirements in one place, a basic layout is designed to show how it will function.",
+     "how_we_do_it_descriprion3":"With everyone on board, the website is assembled as per layout.",
+     "how_we_do_it_descriprion4":"The system is rigorously tested for bugs and glitches.",
+     "how_we_do_it_descriprion5":"First working version of system is presented to show what product will do.",
+     "how_we_do_it_descriprion6":"When everything is in market-ready condition, the product is launched.     ",
+     "how_we_do_it_descriprion7":"We provide complete upkeep and maintenance of your software.",
+     "why_bluenova_description":"Our team hold knowledge in completing the projected goals and makes it possible in molding the ideas as per the market demands. We do not just make an app we make a tool to take your business to another level. We blend the experience, innovation & technology in-order to make a masterpiece for you.",
+      "why_blue_nova":"Why Bluenova",
+     "why_bluenova1":"Excellent Quality Delivered On Time",
+      "why_bluenova2":"Excellent Quality Delivered On Time",
+      "why_bluenova3":"Full Confidentially",
+      "why_bluenova4":"Full Confidentially",
+      "why_bluenova5":"Complete Technical Competency",
+      "why_bluenova6":"Absolute Support",
+      "have_you_project":"HAVE YOU A PROJECT IN MIND?",    
+      "have_you_project_description":"We are always excited to hear the great ideas and help them convert to the next big thing Note: Rest assured your project idea and details will remain confidential and will not be shared with anyone as part of our privacy policy",
+      "note_title":"Note",
+      "note_description":"Rest assured your project idea and details will remain confidential and will not be shared with anyone as part of our privacy policy",
+            
+     "service-it_app_introduction1":"Look around and you’ll see, the entire world has gone App crazy. The average use of smartphones has become 4 hours per day for a person, so the use of smartphones has become very common and you hardly see anyone in a public place unless you notice that he is using his phone. This opens up a lot of opportunities for people who own great applications because according to studies, reliance on applications increases very quickly.",
+     "service-it_app_introduction2":"Blue nova help’s your business tap into that massive online resource, with powerful, useful and helpful apps that put your business in the palm of your customer’s hand.",
+     "service-it_app_introduction3":"Our app development team uses cutting-edge technologies and responsive design to deliver an excellent customer experience, one that build’s an affinity for your brand, gives you a direct line of communication to customers, increases their satisfaction, and adds value to your brand.",
+     "service-it_app_introduction4":"Our application combine engaging user experiences with amazing performances.",
+     "what_we_do_description_app":"WWe’ll help you design, build and launch your business with a fully customized & innovative mobile application that simply entice new users in the ever-changing market effortlessly.",
+     "what_we_do_app_title1":"IOS APP",
+     "what_we_do_app_title2":"WEB APP",
+     "what_we_do_app_title3":"ANDROID APP",
+     "what_we_do_app_title4":"HYBRID NATIVE APP",
+     "what_we_do_app_title5":"CROSS-PLATFORM APP DEVELOPMENT",
+     "what_we_do_app_title6":"PROGRESSIVE WEB APPS",
+     "what_we_do_app_descriprion1":"Outstanding, engaging and goal oriented iOS/iPhone apps leveragin.",
+     "what_we_do_app_descriprion2":"Top-tier custom made web apps for B2B and B2C that enables clients to overcome the challenges of the business world.",
+     "what_we_do_app_descriprion3":"Top performance robust Android application that offers scalability, security, interactivity and the ultimate user.",
+     "what_we_do_app_descriprion4":"Enterprise-grade Hybrid-Native apps for easy & fast development with attractive UI UX designs for every customer.",
+     "what_we_do_app_descriprion5":"Optimized Apps produced to help you transform your business quickly across multiple operating systems with high efficiency.",
+     "what_we_do_app_descriprion6":"Engaging user experience using modern web capabilities to deliver state of the art Application. Like experience for our customers",
+     "what_we_do_it_app_title1":"Mobile App Strategy",
+     "what_we_do_it_app_title2":"Mobile App Design",
+     "what_we_do_it_app_title3":"QA & Deployment",
+     "what_we_do_it_app_title4":"Mobile App Development",
+     "what_we_do_it_app_description1":"bluenova can help you run your business successfully with the help of your dream app. Our exclusive apps structure are designed to increase productivity and help you better utilize your resources. Along with that, we provide mobile app strategy definition which will increase traffic and lead to a highly profitable business.",
+     "what_we_do_it_app_description2":"The process of mobile app development needs creativity, skills, and viability all together. Whether you want to go with iOS, Android or Hybrid app development, the essential key to success is to have the following elements during app design, front and back end development proven methods and a solution based approach.",
+     "what_we_do_it_app_description3":"Our qualified and experienced QA team follows the highest standards in mutual and automated mobile app testing & analysis. We assure quality more than anything through quality examiners, security & compatibility. Get a glitch-free, established and fully functional exquisite application with us now!",
+     "what_we_do_it_app_description4":"bluenova can help you run your business successfully with the help of your dream app. Our exclusive apps structure are designed to increase productivity and help you better utilize your resources. Along with that, we provide mobile app strategy definition which will increase traffic and lead to a highly profitable business.",
+     
+     "creation_date":"Creation date", 
+     "legal_form":"Legal Form",
+     "capital":"Capital"
+    }

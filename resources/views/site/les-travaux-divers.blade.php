@@ -14,8 +14,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Services General Construction</h2>
-                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Services General Construction  </span></p>
+                            <h2>Services {{__('service-construction_title')}}</h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Services {{__('service-construction_title')}} </span></p>
                         </div>
                     </div>
                 </div>
@@ -30,11 +30,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 animated slideInLeft">
                     <div class="why-we-content-text mb-50 ">
-                        <h1 class="">About General Construction </h1>
+                        <h1 class="">{{__('about-construction_title')}} </h1>
                         
                         <br>
                         <h6  style="font-family:Times New Roman, Times, serif;border-buttom:solid 5px red">
-                        The construction activity is essentially an activity of implementation or installation on the customer's site and which concerns both new work and renovation, repair or maintenance.</h6 >
+                        {{__('about-construction_description')}}
+                        </h6 >
                     </div>
                 </div>
 
@@ -57,7 +58,7 @@
             <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center mt-5 animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >Our Vision</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >{{__('vision_title')}}</h3>
                     </div>
                 </div>
             </div>           
@@ -69,7 +70,7 @@
                         <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
                         <div class="feature-content-text section-padding-40-40">
                        
-                            <p class="mb-0 text-left text-white text-center">In the vision that we have developed, we intend to be the benchmark for building, fittings and interior design. An innovative company that offers the best products and services and that, thanks to this, grows and becomes a leader in the market
+                            <p class="mb-0 text-left text-white text-center">{{__('vision-construction_description')}}
 
 
                             </p>
@@ -97,7 +98,7 @@
         <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >Our Mission</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >{{__('mission_title')}}</h3>
                     </div>
                 </div>
             </div>  
@@ -109,7 +110,7 @@
                         <br>
                         <p class="text-white" style="line-height:2.1">
 
-                        Thanks to our enthusiasm, our teamwork and our values, we intend to satisfy the needs of all those who, throughout the Moroccan territory, love the quality of service, and this through the best achievements that builders, developers or fitters can offer, aided by the best technologies, by the intellectual effort that comes from the quest for beauty and quality in everything we do
+                        {{__('mission-construction_description')}}
                              
                        </p >
                     </div>
@@ -146,8 +147,8 @@
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                            <h4>Team</h4>
-                             <a style="color:#273d88" href="{{ url('/service/travaux/1')}}">Meet our team</a>
+                            <h4>{{__('team')}}</h4>
+                             <a style="color:#273d88" href="{{ url(app()->getLocale().'/service/travaux/1')}}">{{__('meet_our_team')}}</a>
                         </div>
                     </div>
                 </div>
@@ -161,8 +162,8 @@
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                        <h4 >Project</h4>
-                         <a style="color:#273d88" href="{{ url('/service/travaux/2')}}">Read more</a>
+                        <h4 >{{__('project')}}</h4>
+                         <a style="color:#273d88" href="{{ url(app()->getLocale().'/service/travaux/2')}}">{{__('button_plus')}}</a>
                         </div>
                     </div>
                 </div>
@@ -177,8 +178,8 @@
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                        <h4>Materiels</h4>
-                            <a style="color:#273d88" href="{{ url('/service/travaux/3')}}">Read more</a>
+                        <h4>{{__('material')}}</h4>
+                            <a style="color:#273d88" href="{{ url(app()->getLocale().'/service/travaux/3')}}">{{__('button_plus')}}</a>
                         </div>
                     </div>
                 </div>           
@@ -192,7 +193,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h6 class="section-padding-0-20" style="color:#0a0a0a">Our Clients</h6>
+                        <h6 class="section-padding-0-20" style="color:#0a0a0a">{{__('our_client')}}</h6>
                         <div class="container client-ligne" style=""></div>
                     </div>
                 </div>

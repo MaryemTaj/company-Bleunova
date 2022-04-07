@@ -10,7 +10,7 @@
             <div class="col-md-6 col-lg-12">
                
                 <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> Team Import Export</h3> 
+                    <h3 style="font-family:Times New Roman, Times, serif;"> {{__('team')}} {{__('service-import-export_title')}}</h3> 
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="card p-3 py-4">
                 <div class="text-center"> </div>
                 <div class="text-center mt-3"> 
-                    <h5 class="mt-2 mb-0">Commercial</h5> <span>Commercial</span>
+                    <h5 class="mt-2 mb-0">{{__('commercial')}}</h5> <span>{{__('commercial')}}</span>
                     <div class="px-4 mt-1">
                         <p class="fonts"></p>
                     </div>
@@ -44,7 +44,7 @@
             <div class="card p-3 py-4">
                 <div class="text-center"> </div>
                 <div class="text-center mt-3"> 
-                    <h5 class="mt-2 mb-0">Technician</h5> <span>Technician</span>
+                    <h5 class="mt-2 mb-0">{{__('technician')}}</h5> <span>{{__('technician')}}</span>
                     <div class="px-4 mt-1">
                         <p class="fonts"></p>
                     </div>

@@ -13,8 +13,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Service Export Import</h2>
-                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Service Export Import </span></p>
+                            <h2>Service {{__('service-import-export_title')}} </h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Service {{__('service-import-export_title')}} </span></p>
                         </div>
                     </div>
                 </div>
@@ -29,13 +29,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 animated slideInLeft">
                     <div class="why-we-content-text mb-50 ">
-                        <h1 class="">About Import Export</h1>
+                        <h1 class="">{{__('about-import-export_title')}}</h1>
                         
                         <br>
                         <h6  style="font-family:Times New Roman, Times, serif;border-buttom:solid 5px red">
-                        International trade is the exchange of goods and services between countries. This type of trade has existed for centuries, but it is experiencing a new boom due to economic globalization.
-International trade theory is the branch of economics that studies and models international trade.
-Commercial activity whose purpose is the acquisition of products from abroad and the sale of national products abroad.</h6 >
+                        {{__('about-import-export_description')}}
+                    </h6 >
                     </div>
                 </div>
 
@@ -58,7 +57,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
             <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center mt-5 animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >Our Vision</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >{{__('vision_title')}}</h3>
                     </div>
                 </div>
             </div>           
@@ -70,7 +69,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
                         <div class="feature-content-text section-padding-40-40">
                        
-                            <p class="mb-0 text-left text-white text-center">To be Globally recognized import – export company that put quality, service, and value as priority to satisfy the needs of our customers, employees and stakeholders.
+                            <p class="mb-0 text-left text-white text-center">{{__('vision-import-export_description')}}
                       
 
                             </p>
@@ -93,7 +92,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
         <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >Our Mission</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >{{__('mission_title')}}</h3>
                     </div>
                 </div>
             </div>  
@@ -104,9 +103,9 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         
                         <br>
                         <p class="mb-0 text-white">
-                            <ul class="mb-0 text-center text-white"> <li><p class="text-white">To offer our customers products with superior quality and value</p></li><br>	
-<li><p class="text-white">To create peaceful and enjoyable work environment for our employees</p></li><br> 
-<li><p class="text-white">To contribute to the growth of society as we grow the company’s business</p></li></ul>
+                            <ul class="mb-0 text-center text-white"> <li><p class="text-white">{{__('mission-import-export_description1')}}</p></li><br>	
+<li><p class="text-white">{{__('mission-import-export_description2')}}</p></li><br> 
+<li><p class="text-white">{{__('mission-import-export_description3')}}</p></li></ul>
 </p> </p>
                     </div>
                 </div>
@@ -139,8 +138,8 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                            <h4>Team</h4>
-                             <a style="color:#273d88" href="{{ url('/service/exportimport/1')}}">Meet our team</a>
+                            <h4>{{__('team')}}</h4>
+                             <a style="color:#273d88" href="{{ url(app()->getLocale().'/service/exportimport/1')}}">{{__('meet_our_team')}}</a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +157,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h6 class="section-padding-0-20" style="color:#0a0a0a">Our Clients</h6>
+                        <h6 class="section-padding-0-20" style="color:#0a0a0a">{{__('our_client')}}</h6>
                         <div class="container client-ligne" style=""></div>
                     </div>
                 </div>

@@ -54,7 +54,7 @@
                         <h4>Contact info</h4>
                         <ul>
                             <li><a href="#"><i class="ti-location-pin"></i>Casablanca, {{__('morocco')}}</a></li>
-                            <li><a href="#"><i class="ti-pin2"></i>181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</a></li>
+                            <li><a href="#"><i class="ti-pin2"></i>{{__('adress')}}</a></li>
                             <li><a href="mailto:Fadel.boukined@bluenova.ma"><i class="ti-email"></i>Contact@bluenova.ma</a></li>
                             <li><a href="tel:+212668044603"><i class="ti-mobile"></i> </a></li>
                             <li><a href="#"><i class="ti-location-pin"></i> ti-world</a></li>

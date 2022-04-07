@@ -65,7 +65,7 @@
                                     </div>
                                     <div class="contact-info">
                                         <h5 class="mb-1">{{__('address_title')}}</h5>
-                                        <p class="mb-0">181,Street Abdelmoumen,Res <br>,Al Yamama C, 1st floor,Hospital hanche, Casablanca</p>
+                                        <p class="mb-0">{{__('adress')}}</p>
                                     </div>
                                 </div>
                             </div>

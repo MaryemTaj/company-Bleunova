@@ -9,8 +9,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>About Us</h2>
-                            <p><a href="{{ url('/') }}">Home .</a> <span>About Us</span></p>
+                            <h2>{{__('about_company')}}</h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>{{__('about')}}</span></p>
                         </div>
                     </div>
                 </div>
@@ -30,21 +30,21 @@
                     </div>
                 </div>
             </div>    
-            <div class="row justify-content-center  ">
+            <div class="row justify-content-center   ">
                 <div class="col-md-12">
                     <div class="why-we-content-text mb-50 ">
                         
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:18px">Creation date : </b><p>29/10/2021</p> 
+                    <b style="margin-right:18px">{{__('creation_date')}} : </b><p>29/10/2021</p> 
                 </div>
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:40px">Legal form : </b> <p>Limited Liability Company (LLC) </p> 
+                    <b style="margin-right:40px">{{__('legal_form')}} : </b> <p>Limited Liability Company (LLC) </p> 
                 </div>
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:60px">Address : </b><p>181,Bd Abdelmoumen,Rés Al yamama C, 1ére étage, Quartier des Hopitaux , Casablanca</P>
+                    <b style="margin-right:60px">Address : </b><p>{{__('adress')}}</P>
                 </div>
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:12px">Email address: </b><p> Contact@bluenova.ma</P>
+                    <b style="margin-right:12px">Email : </b><p> Contact@bluenova.ma</P>
                 </div>
                 <div class="row" style="margin-left:30px" >
                     <b style="margin-right:110px">IF:   </b>  <p> 50570949</P>
@@ -62,10 +62,10 @@
                     <b style="margin-right:80px">CNSS:  </b> <p>2853476</P>
                 </div>
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:75px">Team: </b> <p> 8 employees</P>
+                    <b style="margin-right:75px">{{__('team')}}: </b> <p> 8 employees</P>
                 </div>
                 <div class="row" style="margin-left:30px" >
-                    <b style="margin-right:67px">capital:   </b> <p>100 000,00dh</P>
+                    <b style="margin-right:67px">{{__('capital')}}:   </b> <p>100 000,00dh</P>
                 </div>
                     </div>
                 </div>

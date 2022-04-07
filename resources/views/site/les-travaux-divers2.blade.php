@@ -10,7 +10,7 @@
             <div class="col-md-6 col-lg-12">
                
                 <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> All projects  </h3> 
+                    <h3 style="font-family:Times New Roman, Times, serif;"> {{__('all_project')}}  </h3> 
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="call-to-title text-center mb-50">
-                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">Maroc</h2>
+                                    <h2 class="text-black mb-0  wow zoomIn  animate__pulse">{{__('morocco')}}</h2>
                                 </div>
                             </div>
                         </div>     
@@ -34,7 +34,7 @@
                         <div class="row justify-content-center">                          
                                 <div class=" " style="width: 5rem; margin-right:3%"  >
                                     <img src="{{ asset('img/projet-constr/africa-gaz.png') }}" class="card-img-top" alt="..."  >
-                                       
+                                 
                                 </div>
                                                    
                                 <div class="" style="width: 5rem; margin-right:3%">

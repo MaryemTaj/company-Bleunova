@@ -11,10 +11,10 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s"> Import Export </h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">International trade and the exchange of goods and services between countries.</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s"> {{__('service-import-export_title')}} </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">{{__('service-import-export_desc_slide')}} </h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/exportimport"><span>{{__('button_start_now')}}</span></a>
+                                    <a class="boxed-btn" href="{{ url(app()->getLocale().'/service/exportimport') }}"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -37,17 +37,17 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">General Construction </h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">Construction, Development, Maintenance, Interior architecture</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">{{__('service-construction_title')}} </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">{{__('service-construction_desc_slide')}}</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/travaux"><span>{{__('button_start_now')}}</span></a>
+                                    <a class="boxed-btn" href="{{ url(app()->getLocale().'/service/travaux') }}"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="welcome-thumb-slider mt-70">
-                            <a href="service/travaux">
+                            <a href="{{ url(app()->getLocale().'/service/travaux') }}">
                                 <img  style="width:auto;height:410px;background-color:#0a5ea2;border-radius: 5%;" src="{{ asset('img/home.jpg') }}" alt="" >
                             </a>    
                             </div>
@@ -62,17 +62,17 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">IT-Solution</h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">IT and Mobile Applications, E-commerce, Websites, Software, Solutions</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">{{__('service-it_title')}} </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">{{__('service-it_desc_slide')}}</h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/it"><span>{{__('button_start_now')}}</span></a>
+                                    <a class="boxed-btn" href="{{ url(app()->getLocale().'/service/it') }}"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="welcome-thumb-slider mt-70">
-                            <a href="service/it">
+                            <a href="{{ url(app()->getLocale().'/service/it') }}">
                                 <img  style="width:auto;height:410px;background-color:#0a5ea2;border-radius: 5%;" src="{{ asset('img/dv.jpg') }}" alt="" >
                             </a>    
                             </div>
@@ -87,17 +87,17 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-lg-6">
                             <div class="welcome-content home-slider mt-we-70 mt-sm-100">
-                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">Real Estate</h3>
-                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">Real Estate Transactions,Land,Residential,Commercial,Industrial</h5>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.4s">{{__('service-real-estate_title')}} </h3>
+                                <h5 class="wow fadeInUp" data-wow-delay="0.6s">{{__('service-real-estate_desc_slide')}} </h5>
                                 <div class="slider-btn mt-30">
-                                    <a class="boxed-btn" href="service/it"><span>{{__('button_start_now')}}</span></a>
+                                    <a class="boxed-btn" href="{{ url(app()->getLocale().'/service/realEstate') }}"><span>{{__('button_start_now')}}</span></a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-lg-6">
                             <div class="welcome-thumb-slider mt-70">
-                            <a href="service/it">
+                            <a href="{{ url(app()->getLocale().'/service/realEstate') }}">
                                 <img  style="width:auto;height:410px;background-color:#0a5ea2;border-radius: 5%;" src="{{ asset('img/RE.jpg') }}" alt="" >
                             </a>    
                             </div>
@@ -171,18 +171,17 @@
                                 <div class="single-blog-area  border-hover"  >
                                      <!-- Thumb -->
                                      <div class="blog-thumb" style="width: 150;height: 10;">                          
-                                        <a  href="service/exportimport">
+                                        <a  href="{{url(app()->getLocale().'/service/exportimport')}}">
                                             <img src="{{ asset('img/expo.jpg') }}" alt="" style=" border-radius: 8px;height: 200px; ">
                                         </a>                            
                                      </div>
                                      </div>
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
-                                        <a href="{{url('/service/it')}}">
-                                            <h5 class="ligne">Import Export </h5>
+                                        <a href="{{url(app()->getLocale().'/service/exportimport')}}">
+                                            <h5 class="ligne">{{__('service-import-export_title')}} </h5>
                                         </a>
-                                        <span class="ligne">International trade for.
-Commercial activity whose purpose is the acquisition of products from abroad and the sale of national products abroad</span>
+                                        <span class="ligne">{{__('service-import-export_description')}}</span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                
@@ -194,17 +193,17 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                                 <div class="single-blog-area  border-hover">
                                      <!-- Thumb -->
                                      <div class="blog-thumb" style="width: 150;height: 10;">                          
-                                        <a  href="service/travaux">
+                                        <a  href="{{url(app()->getLocale().'/service/travaux')}}">
                                             <img src="{{ asset('img/civil.jpg') }}" alt="" style=" border-radius: 8px; height: 200px;">
                                         </a>                            
                                      </div>
                                      </div>
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
-                                        <a href="service/travaux">
-                                            <h5 class="ligne">General Construction</h5>
+                                        <a href="{{url(app()->getLocale().'/service/travaux')}}">
+                                            <h5 class="ligne">{{__('service-construction_title')}}</h5>
                                         </a>
-                                        <span class="ligne">The general construction is an activity of implementation or installation on the customer's site and which concerns both new work and renovation .</span>
+                                        <span class="ligne">{{__('service-construction_description')}}</span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                 
@@ -215,17 +214,17 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                                 <div class="single-blog-area  border-hover">
                                      <!-- -->
                                      <div class="blog-thumb" style="width: 150;height: 10;">                          
-                                        <a  href="service/it">
+                                        <a  href="{{url(app()->getLocale().'/service/it')}}">
                                             <img src="{{ asset('img/dv.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
                                         </a>                            
                                      </div>
                                      </div>
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
-                                        <a href="service/it">
-                                            <h5 class="ligne">IT-Solution</h5>
+                                        <a href="{{url(app()->getLocale().'/service/it')}}">
+                                            <h5 class="ligne">{{__('service-it_title')}}</h5>
                                         </a>
-                                        <span class="ligne">It technology refers to computers,storage,networks and devices,infrastructures and processes to create, process,store,secure and exchange datta.</span>
+                                        <span class="ligne">{{__('service-it_description')}}</span>
                                         <p><a href=""></a></p>
                                     </div>                        
                                
@@ -237,19 +236,19 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                                 <div class="single-blog-area  border-hover">
                                      <!-- Thumb -->
                                      <div class="blog-thumb" style="width: 150;height: 10;">                          
-                                        <a  href="{{url('/service/realEstate')}}">
+                                        <a  href="{{url(app()->getLocale().'/service/realEstate')}}">
                                             <img src="{{ asset('img/immo-2.jpg') }}" alt="" style=" border-radius: 8px; height: 200px; ">
                                         </a>                            
                                      </div>
                                      </div>
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
-                                        <a href="{{url('/service/realEstate')}}">
-                                            <h5 class="ligne">Real Estate</h5>
+                                        <a href="{{url(app()->getLocale().'/service/realEstate')}}">
+                                            <h5 class="ligne">{{__('service-real-estate_title')}}</h5>
                                         </a>
                                         <span class="ligne">
 
-                                        Real estate, as compared to movable property, is property that cannot be moved, the Latin root of the word "real estate" meaning "that does not move.
+                                        {{__('service-real-estate_description')}}
                                         </span>
                                         <p><a href=""></a></p>
                                     </div>                        
@@ -451,7 +450,7 @@ Commercial activity whose purpose is the acquisition of products from abroad and
                         </div>
                         <div class="counter-number">
                             <h3><span class="counter">35</span></h3>
-                            <p>{{_('awards')}}</p>
+                            <p>{{__('awards')}}</p>
                         </div>
                     </div>
                 </div>

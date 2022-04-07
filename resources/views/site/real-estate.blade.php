@@ -14,8 +14,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Services Rale Estate</h2>
-                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Services Rale Estate </span></p>
+                            <h2>Services {{__('service-real-estate_title')}}</h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Services {{__('service-real-estate_title')}} </span></p>
                         </div>
                     </div>
                 </div>
@@ -30,11 +30,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 animated slideInLeft">
                     <div class="why-we-content-text mb-50 ">
-                        <h1 class="">About Rale Estate</h1>
+                        <h1 class="">{{__('about-real-estate_title')}}</h1>
                         
                         <br>
                         <h6  style="font-family:Times New Roman, Times, serif;border-buttom:solid 5px red">
-                        Real estate, as compared to movable property, is property that cannot be moved, the Latin root of the word “real estate” meaning “that does not move”. This may concern bare land, a building or part of a building for residential, office, industrial use, etc.</h6 >
+                        {{__('about-real-estate_description')}}
+                      </h6 >
                     </div>
                 </div>
 
@@ -64,7 +65,7 @@
             <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center mt-5 animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >Our Vision</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >{{__('vision_title')}}</h3>
                     </div>
                 </div>
             </div>           
@@ -76,9 +77,9 @@
                         <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
                         <div class="feature-content-text section-padding-40-40">
                        
-                        <p class="mb-0 text-left text-white">Against the tide of an ever more rushed society, my agents and I are committed to taking all the time necessary for our clients - sellers and buyers. The time to visit the places, to flush out its obvious charms and its hidden qualities; to question its weak points or to improve. Time also to probe our customers' expectations, explore them, question them.
-It is an exciting process involving reflection, analysis and observation: that of the good, its context, what is exchanged on this market. In short, our expertise is always accompanied by patience and humility.
-                            </p>
+                        <p class="mb-0 text-left text-white">
+                        {{__('vision-real-estate_description')}}
+                        </p>
                         </div>
                     </div>           
                 </div>
@@ -99,7 +100,7 @@ It is an exciting process involving reflection, analysis and observation: that o
         <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >Our Mission</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >  {{__('mission_title')}}</h3>
                     </div>
                 </div>
             </div>  
@@ -110,17 +111,17 @@ It is an exciting process involving reflection, analysis and observation: that o
                         
                         <br>
                         <p class="mb-0 text-white">
-                        Connect sellers and potential buyers of real estate. Its main tasks are to 
+                        {{__('mission-real-estate_description')}} 
                          </p><br>
 
                          <ul class="mb-0 text-left list" style="">
-                                <li><p class="mb-2 text-white">- Evaluate properties (real estate diagnosis)</p></li>
-                                <li><p class="mb-2 text-white">- Prospecting customers</p></li>
-                                <li><p class="mb-2 text-white">- Advise clients (price estimate, administrative procedures, legal aspects, etc.)</p></li>
-                                <li><p class="mb-2 text-white">- Create classified ads for properties for sale</p></li>
-                                <li><p class="mb-2 text-white">- Draft various types of documents (pre-contract)</p></li>
-                                <li><p class="mb-2 text-white">- Organize apartment visits</p></li>
-                                <li><p class="mb-2 text-white">- Accompaniment of clients until the sale of the property.</p></li> 
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description1')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description2')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description3')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description4')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description5')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description6')}} </p></li>
+                                <li><p class="mb-2 text-white">  {{__('mission-real-estate_description7')}} </p></li> 
                             </ul>
                     </div>
                 </div>
@@ -158,8 +159,8 @@ It is an exciting process involving reflection, analysis and observation: that o
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
-                            <h4>Team</h4>
-                             <a style="color:#273d88" href="{{ url('/service/realEstate/1')}}">Meet our team</a>
+                            <h4>  {{__('team')}} </h4>
+                             <a style="color:#273d88" href="{{ url(app()->getLocale().'/service/realEstate/1')}}">{{__('meet_our_team')}}</a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +178,7 @@ It is an exciting process involving reflection, analysis and observation: that o
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h6 class="section-padding-0-20" style="color:#0a0a0a">Our Clients</h6>
+                        <h6 class="section-padding-0-20" style="color:#0a0a0a">{{__('our_client')}}</h6>
                         <div class="container client-ligne" style=""></div>
                     </div>
                 </div>

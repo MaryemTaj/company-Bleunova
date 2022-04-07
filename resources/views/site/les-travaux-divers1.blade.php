@@ -10,7 +10,7 @@
             <div class="col-md-6 col-lg-12">
                
                 <div class="animate__animated animate__bounceInUp   wow zoomIn" data-wow-delay="0.2s">
-                    <h3 style="font-family:Times New Roman, Times, serif;"> Team Construction</h3> 
+                    <h3 style="font-family:Times New Roman, Times, serif;"> {{__('team')}} {{__('service-construction_title')}}</h3> 
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
             <div class="card p-3 py-4">
                 <div class="text-center"> </div>
                 <div class="text-center mt-3"> 
-                    <h5 class="mt-2 mb-0">Engineer</h5> <span>Engineer</span>
+                    <h5 class="mt-2 mb-0">{{__('engineer')}}</h5> <span>{{__('engineer')}}</span>
                     <div class="px-4 mt-1">
                         <p class="fonts"></p>
                     </div>
@@ -44,7 +44,7 @@
             <div class="card p-3 py-4">
                 <div class="text-center"> </div>
                 <div class="text-center mt-3"> 
-                    <h5 class="mt-2 mb-0">Technician</h5> <span>Technician</span>
+                    <h5 class="mt-2 mb-0">{{__('technician')}}n</h5> <span>{{__('technician')}}</span>
                     <div class="px-4 mt-1">
                         <p class="fonts"></p>
                     </div>
@@ -61,7 +61,7 @@
             <div class="card p-3 py-4">
                 <div class="text-center"> </div>
                 <div class="text-center mt-3"> 
-                    <h5 class="mt-2 mb-0">construction manager</h5> <span>construction manager</span>
+                    <h5 class="mt-2 mb-0">{{__('construction_manager')}}</h5> <span>{{__('construction_manager')}}</span>
                     <div class="px-4 mt-1">
                         <p class="fonts"> </p>
                     </div>

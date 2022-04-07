@@ -14,8 +14,8 @@
                 <div class="col-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Service IT-Solution</h2>
-                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Service IT-Solution</span></p>
+                            <h2>Service {{__('service-it_title')}}</h2>
+                            <p><a href="{{ url('/') }}">{{__('home')}} .</a> <span>Service {{__('service-it_title')}}</span></p>
                         </div>
                     </div>
                 </div>
@@ -29,11 +29,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6 animated slideInLeft">
                     <div class="why-we-content-text mb-50 ">
-                        <h1 class="">About IT-Solution</h1>
+                        <h1 class="">{{__('about-it_title')}}</h1>
                         
                         <br>
                         <h6  style="font-family:Times New Roman, Times, serif;border-buttom:solid 5px red">
-                        Information technology refers to the use of computers, storage, networks and devices, infrastructures and processes to create, process, store, secure and exchange all kinds of electronic data. Information technology is generally used in the context of business operations, as opposed to technology used in personal or entertainment settings. Business use of IT includes computing and telephony
+                        {{__('about-it_description')}}
                     </h6 >
                     </div>
                 </div>
@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center mt-5 animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >Our Vision</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor text-center" >{{__('vision_title')}}</h3>
                     </div>
                 </div>
             </div>           
@@ -70,9 +70,9 @@
                         <!-- Single Feature Text {{ asset('img/icon-img/1.svg') }}-->
                         <div class="feature-content-text section-padding-40-40">
                        
-                            <p class="mb-0 text-left text-white text-center">Thanks to our enthusiasm, our teamwork and our values, we intend to satisfy the needs of all those who, throughout the Moroccan territory, love the quality of service, and this through the best achievements that builders, developers or fitters can offer, aided by the best technologies, by the intellectual effort that comes from the quest for beauty and quality in everything we do
+                            <p class="mb-0 text-left text-white text-center">
 
-
+                            {{__('vision-it_description')}}
                             </p>
                         </div>
                     </div>           
@@ -91,7 +91,7 @@
         <div class="row">
                 <div class="col-12  animated animate__flipInX">
                     <div class="section-heading text-center animated slideInRight  wow zoomIn  ">                   
-                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >Our Mission</h3>
+                        <h3 style="color:white; " class="breadcrumb_iner_item befor after text-center" >{{__('mission_title')}}</h3>
                     </div>
                 </div>
             </div>  
@@ -102,7 +102,8 @@
                         
                         <br>
                         <p class="text-white" style=" line-height: 2.5;">
-                        The mission of the Department of Information Technology is to build a comprehensive and quality technology infrastructure, establish and maintain an efficient operating environment, and provide quality, timely, cost-effective and reliable technology services.</p >
+                        {{__('vision-it_description')}}
+                       </p >
                     </div>
                 </div>
 
@@ -155,10 +156,10 @@
                                     <i class="fa fa-mobile fa-10x icone-it" style="font-size:60px;color:#0a5ea2;"></i>
                                 </span>
                             </div>
-                            <a href="{{ url('service/it/1')}}">
-                                <h5>Website Design & Development</h5>
+                            <a href="{{ url(app()->getLocale().'/service/it/1')}}">
+                                <h5>{{__('service-it_web')}}</h5>
                             </a>
-                            <p><a href="{{ url('service/it/1')}}">Read more</a></p>
+                            <p><a href="{{ url(app()->getLocale().'/service/it/1')}}">{{__('button_plus')}}</a></p>
                         </div>                        
                     </div>
                 </div>
@@ -176,10 +177,10 @@
                                     <i class="fa fa-mobile fa-10x icone-it" style="font-size:60px;color:#0a5ea2;"></i>
                                 </span>
                             </div>
-                            <a href="{{ url('service/it/3')}}">
-                                <h5>MOBILE APPS DEVELOPMENT</h5>
+                            <a href="{{ url(app()->getLocale().'/service/it/3')}}">
+                                <h5>{{__('service-it_app')}}</h5>
                             </a>
-                            <p><a href="{{ url('service/it/3')}}">Read more</a></p>
+                            <p><a href="{{ url(app()->getLocale().'/service/it/3')}}">{{__('button_plus')}}</a></p>
                         </div>
                         
                     </div>
@@ -189,7 +190,7 @@
                 
             </div>
             <div class="row justify-content-center section-padding-50">  
-                <a href="{{ url('/contact')}}"><button class="btn boxed-btn">Contact us</button></a>
+                <a href="{{ url(app()->getLocale().'/contact')}}"><button class="btn boxed-btn">{{__('button_contact_us')}}</button></a>
         
           </div> 
 

@@ -43,22 +43,15 @@
                         
                         <a class="nav-link" href="{{url(app()->getLocale().'/contact')}}">{{__('contact')}}</a>
                     </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle float-right text-dark" href="{{ url(app()->getLocale() == 'fr'? 'en':'fr' ) }}" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="{{ app()->getLocale() == 'fr'? 'flag-icon flag-icon-fr':'flag-icon flag-icon-us'}}"> </span> <u>{{ app()->getLocale() == 'fr'? 'French':'English' }}</u></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" href="{{ url(app()->getLocale() == 'fr'? 'en':'fr' ) }}"><span class="{{ app()->getLocale() == 'fr'? 'flag-icon flag-icon-us':'flag-icon flag-icon-fr'}}"> </span>  {{ app()->getLocale() == 'fr'? 'English':'French' }}</a>
+                                
+                            </div>
+                        </li>
                         </ul>
-                        <div class="col-md-4">
-                <div>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  {{ app()->getLocale() == 'fr'? 'Frensh':'English' }}
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="{{ url(app()->getLocale() == 'fr'? 'en':'fr' ) }}"> {{ app()->getLocale() == 'fr'? 'English':'Frensh' }}</a>
-            
-                 </div>
-              </div>
-           
-        </div>
-            </div>
-                    
+                       
                     </div>
                     </div>
                     </nav>

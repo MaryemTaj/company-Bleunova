@@ -17,13 +17,19 @@
 
 
     "service-it_title":"Solution IT",
-    "service-import-export_title":"Import Export",
+    "service-import-export_title":"Import et export",
     "service-construction_title":"Construction",
     "service-real-estate_title":"Immobilisation",
-  
-    "service-it_description":"LA TECHNOLOGIE INFORMATIQUE SE RÉFÈRE AUX ORDINATEURS, AU STOCKAGE, AUX RÉSEAUX ET AUX DISPOSITIFS, AUX INFRASTRUCTURES ET AUX PROCESSUS POUR CRÉER, TRAITER, STOCKER, SÉCURISER ET ÉCHANGER LES DONNÉES.",
-    "service-import-export_description":"INTERNATIONAL TRADE FOR. COMMERCIAL ACTIVITY WHOSE PURPOSE IS THE ACQUISITION OF PRODUCTS FROM ABROAD AND THE SALE OF NATIONAL PRODUCTS ABROAD",
-    "service-construction_description":"COMMERCE INTERNATIONAL POUR. ACTIVITÉ COMMERCIALE DONT L'OBJET EST L'ACQUISITION DE PRODUITS À L'ÉTRANGER ET LA VENTE DE PRODUITS NATIONAUX À L'ÉTRANGER",
+
+    "service-it_desc_slide":"Applications web et mobiles, E-commerce, Sites Web, Logiciels, Solutions",
+    "service-import-export_desc_slide":"Commerce international et échange de biens et de services entre pays. ",
+    "service-construction_desc_slide":"Construction, Aménagement, Maintenance, Architecture d'intérieur",
+    "service-real-estate_desc_slide":"Transactions immobilières,Terrain,Résidentiel,Commercial,Industriel",
+
+
+    "service-it_description":"LA TECHNOLOGIE INFORMATIQUE SE RÉFÈRE AUX ORDINATEURS, AU STOCKAGE, AUX RÉSEAUX ET AUX DISPOSITIFS,AUX PROCESSUS POUR CRÉER, TRAITER, STOCKER ET ÉCHANGER LES DONNÉES.",
+    "service-import-export_description":"COMMERCE INTERNATIONAL POUR. ACTIVITÉ COMMERCIALE DONT L'OBJET EST L'ACQUISITION DE PRODUITS À L'ÉTRANGER ET LA VENTE DE PRODUITS NATIONAUX À L'ÉTRANGER",
+    "service-construction_description":"LA CONSTRUCTION GENERALE EST UNE ACTIVITE DE MISE EN ŒUVRE OU D'INSTALLATION SUR LE SITE DU CLIENT ET QUI CONCERNE TANT LES TRAVAUX NEUF QUE LA RENOVATION.",
     "service-real-estate_description":"L'IMMOBILIER, PAR RAPPORT AUX BIENS MEUBLES, EST UNE PROPRIÉTÉ QUI NE PEUT PAS ÊTRE DÉPLACÉE, LA RACINE LATINE DU MOT IMMOBILIER SIGNIFIANT QUI NE BOUGE PAS.",
 
 
@@ -46,14 +52,135 @@
     "contact_page_title":"Contactez notre support",
 
     "address_title":"Adresse de notre siège",
+    "adress":"181,Abdelmoumen ,Résidence Al Yamama 1 ére etage , Quartier des Hopitaux , Casablanca ",
+
     "tele_title":"Applez-nous ",
     "email_title":"Email",
 
     "name":"votre nom",
     "email":"Email",
     "subject":"Objet",
-    "send_message_button":"Envoyer message"
+    "send_message_button":"Envoyer message",
 
-  
+    "about-import-export_title":"À propos de l'import et l'export",
+    "about-import-export_description":"Le commerce international est l'échange de biens et de services entre pays. Ce type de commerce existe depuis des siècles, mais il connaît un nouvel essor du fait de la mondialisation économique. La théorie du commerce international est la branche de l'économie qui étudie et modélise le commerce international. Activité commerciale dont le but est l'acquisition de produits de l'étranger et la vente de produits nationaux à l'étranger.",
+    "vision_title":"Notre vision",
+    "vision-import-export_description":"Être une société d'import-export mondialement reconnue qui met la qualité, le service et la valeur au premier plan pour satisfaire les besoins de nos clients, employés et parties prenantes.",
+    "mission_title":"Notre mission",
+    "mission-import-export_description1":"Offrir à nos clients des produits de qualité et de valeur supérieures",
+    "mission-import-export_description2":"Créer un environnement de travail paisible et agréable pour nos employés",
+    "mission-import-export_description3":"Contribuer à la croissance de la société à mesure que nous développons les activités de l'entreprise",
+    "team":"Equipe",
+    "our_client":"Nos clients",
+    "meet_our_team":"Voir l'équipe",
+    "team_import_export":"Team Import Export",
+    "commercial":"Commercial",
+    "technician":"Technicien",
+    "enginner":"ingénieur",
+    "construction_manager":"directeur de chantier",
+
+    "all_project":"tous les projets",
+
+
+    "camion":"Camion",
+    "grues":"Grue",
+    "betonniere":"Betonnière",
+    "manutention":"Manutention",
+    "chargeur":"chargeur",
+
+
+    "about-it_title":"À propos Solution IT",
+    "about-it_description":"Les technologies de l'information font référence à l'utilisation d'ordinateurs, de stockage, de réseaux et d'appareils, d'infrastructures et de processus pour créer, traiter, stocker, sécuriser et échanger toutes sortes de données électroniques. La technologie de l'information est généralement utilisée dans le cadre des opérations commerciales, par opposition à la technologie utilisée dans des contextes personnels ou de divertissement. L'utilisation professionnelle de l'informatique comprend l'informatique et la téléphonie",   
+    "vision-it_description":"Grâce à notre enthousiasme, notre travail d'équipe et nos valeurs, nous entendons satisfaire les besoins de tous ceux qui, sur tout le territoire marocain, aiment la qualité de service, et ce à travers les meilleures réalisations que les constructeurs, promoteurs ou installateurs peuvent offrir, aidés par les meilleures technologies, par l'effort intellectuel qui vient de la recherche de la beauté et de la qualité dans tout ce que nous faisons",
+    "mission-it_description":"La mission du Département des technologies de l'information est de construire une infrastructure technologique complète et de qualité, d'établir et de maintenir un environnement d'exploitation efficace et de fournir des services technologiques de qualité, opportuns, rentables et fiables.",
+    "service-it_web":"Développement Web et Design",
+    "service-it_app":"Application Mobile",
+    "button_plus":"Plus",
+    "button_contact_us":"contactez-nous",
+     
+
+    "about-construction_title":"À propos du construction",
+    "about-construction_description":"L'activité de construction est essentiellement une activité de mise en œuvre ou d'installation sur le site du client et qui concerne aussi bien les travaux neufs que la rénovation, la réparation ou l'entretien.",   
+    "vision-construction_description":"Dans la vision que nous avons développée, nous entendons être la référence en matière de construction, d'aménagement et d'aménagement intérieur. Une entreprise innovante qui offre les meilleurs produits et services et qui, grâce à cela, grandit et devient un leader sur le marché",
+    "mission-construction_description":"Grâce à notre enthousiasme, notre travail d'équipe et nos valeurs, nous entendons satisfaire les besoins de tous ceux qui, sur tout le territoire marocain, aiment la qualité de service, et ce à travers les meilleures réalisations que les constructeurs, promoteurs ou installateurs peuvent offrir, aidés par les meilleures technologies, par l'effort intellectuel qui vient de la recherche de la beauté et de la qualité dans tout ce que nous faisons",
+    "project":"Les projets",
+    "material":"Matériels",
+
+
+
+    "about-real-estate_title":"À propos l'immobilisation",
+    "about-real-estate_description":"Un bien immobilier, par rapport à un bien meuble, est un bien qui ne peut être déplacé, la racine latine du mot « immobilier » signifiant « qui ne bouge pas ». Il peut s'agir d'un terrain nu, d'un immeuble ou partie d'immeuble à usage d'habitation, de bureaux, industriel, etc.",   
+    "vision-real-estate_description":"A contre-courant d'une société toujours plus pressée, mes agents et moi-même nous engageons à prendre tout le temps nécessaire pour nos clients - vendeurs et acheteurs. Le temps de visiter les lieux, de débusquer ses charmes évidents et ses qualités cachées ; questionner ses points faibles ou s'améliorer. Le temps aussi de sonder les attentes de nos clients, de les explorer, de les questionner. C'est un processus passionnant de réflexion, d'analyse et d'observation : celle du bien, son contexte, ce qui s'échange sur ce marché. Bref, notre savoir-faire s'accompagne toujours de patience et d'humilité.",
+    "mission-real-estate_description":"Connectez les vendeurs et les acheteurs potentiels de biens immobiliers. Ses tâches principales consistent à :",
+    "mission-real-estate_description1":"- Evaluer les biens (diagnostic immobilier)",
+    "mission-real-estate_description2":"- Prospection clients.",
+    "mission-real-estate_description3":"- Conseiller les clients (estimation de prix, démarches administratives, aspects juridiques, etc.)",
+    "mission-real-estate_description4":"- Créer des petites annonces pour les propriétés à vendre.",
+    "mission-real-estate_description5":"- Rédiger divers types de documents (avant-contrat).",
+    "mission-real-estate_description6":"- Organiser des visites d'appartements.",
+    "mission-real-estate_description7":"- Accompagnement des clients jusqu'à la vente du bien.",
+
     
+    "service-it_web_introduction1":"Les sites Web d'entreprise d'aujourd'hui doivent être faciles à naviguer, intuitifs, attrayants et persuasifs. Plus important encore, ils doivent être réactifs, car de nombreux clients potentiels utilisent des smartphones et des tablettes pour accéder à Internet.",
+    "service-it_web_introduction2":"Bluenova est un expert en création de sites Web pour créer des sites Web influents qui attirent et convertissent des clients potentiels, se classent au sommet des moteurs de recherche et offrent chaque jour de nouvelles affaires à la porte de nos clients. ",
+    "service-it_web_introduction3":"Nos sites Web offrent des expériences intuitives et uniques avec des conceptions de pointe .",
+    "what_we_do_description_web":"Nous avons une équipe dédiée de développeurs et de concepteurs Web prêts à travailler avec vous pour rendre votre entreprise disponible via un site Web robuste et attrayant. Pour garder votre entreprise accessible et à la pointe de la technologie, nous créons des sites visuellement attrayants, rapides et surtout sécurisés.",
+     "how_we_do_it_title1":"Recueillir les exigences",
+     "how_we_do_it_title2":"Planifier & Présenter Design et Wire-frames",
+     "how_we_do_it_title3":"Initialiser le développement",
+     "how_we_do_it_title4":"Assurance qualité",
+     "how_we_do_it_title5":"Présenter la version alpha",
+     "how_we_do_it_title6":"Lancer et déployer",
+     "how_we_do_it_title7":"Assistance & Maintenance",
+     "how_we_do_it":"Comment nous le faisons",
+     "how_we_do_it_descriprion1":"Génération d'une liste d'exigences de toutes les parties prenantes.",
+     "how_we_do_it_descriprion2":"Exigences en un seul endroit, une mise en page de base est conçue pour montrer comment cela fonctionnera.",
+     "how_we_do_it_descriprion3":"Avec tout le monde à bord, le site Web est assemblé selon la mise en page.",
+     "how_we_do_it_descriprion4":"Le système est rigoureusement testé pour les bogues et les problèmes.",
+     "how_we_do_it_descriprion5":"La première version de travail du système est présentée pour montrer ce que le produit fera.",
+     "how_we_do_it_descriprion6":"Lorsque tout est prêt à être commercialisé, le produit est lancé.",
+     "how_we_do_it_descriprion7":"Nous assurons l'entretien et la maintenance complète de votre logiciel.",
+     "why_bluenova_description":"Notre équipe détient les connaissances nécessaires pour atteindre les objectifs projetés et permet de façonner les idées selon les exigences du marché. Nous ne créons pas seulement une application, nous créons un outil pour amener votre entreprise à un autre niveau. Nous mélangeons l'expérience, l'innovation et la technologie afin de créer un chef-d'œuvre pour vous.",
+      "why_blue_nova":"Pourquoi Bluenova",
+     "why_bluenova1":"Excellente qualité livré à temps",
+      "why_bluenova2":"Excellent Quality Delivered On Time",
+      "why_bluenova3":"Entièrement confidentiel",
+      "why_bluenova4":"Équipe expérimentée",
+      "why_bluenova5":"Compétence technique complète",
+      "why_bluenova6":"Assistance absolue",
+      "have_you_project":"Vous avez un projet?",
+      "have_you_project_description":"Nous sommes toujours ravis d'entendre les bonnes idées et de les aider à se transformer en la prochaine grande chose Remarque : Soyez assuré que votre idée de projet et les détails resteront confidentiels et ne seront partagés avec personne dans le cadre de notre politique de confidentialité",
+    
+      "note_title":"Note",
+      "note_description":"Soyez assuré que votre idée de projet et les détails resteront confidentiels et ne seront partagés avec personne dans le cadre de notre politique de confidentialité.",
+            
+     "service-it_app_introduction1":"Regardez autour de vous et vous verrez, le monde entier est devenu fou de l'application. L'utilisation moyenne des smartphones est devenue 4 heures par jour pour une personne, donc l'utilisation des smartphones est devenue très courante et vous ne voyez presque personne dans un lieu public à moins de remarquer qu'il utilise son téléphone. Cela ouvre de nombreuses opportunités pour les personnes qui possèdent de grandes applications car, selon les études, la dépendance aux applications augmente très rapidement.",
+     "service-it_app_introduction2":"Blue nova aide votre entreprise à puiser dans cette ressource en ligne massive, avec des applications puissantes, utiles et utiles qui placent votre entreprise dans la paume de la main de votre client.",
+     "service-it_app_introduction3":"Notre équipe de développement d'applications utilise des technologies de pointe et une conception réactive pour offrir une excellente expérience client, qui crée une affinité pour votre marque, vous donne une ligne de communication directe avec les clients, augmente leur satisfaction et ajoute de la valeur à votre marque.",
+     "service-it_app_introduction4":"Notre application combine des expériences utilisateur attrayantes avec des performances étonnantes.",
+     "what_we_do_description_app":"Nous vous aiderons à concevoir, créer et lancer votre entreprise avec une application mobile entièrement personnalisée et innovante qui attirera simplement de nouveaux utilisateurs sur un marché en constante évolution sans effort.",
+     "what_we_do_app_title1":"APPLICATION IOS",
+     "what_we_do_app_title2":"APPLICATION WEB",
+     "what_we_do_app_title3":"APPLICATION ANDROID ",
+     "what_we_do_app_title4":"APPLICATION NATIVE HYBRIDE",
+     "what_we_do_app_title5":"DÉVELOPPEMENT D'APPLICATIONS MULTI-PLATEFORMES",
+     "what_we_do_app_title6":"APPLICATIONS WEB ÉVOLUTIVES",
+     "what_we_do_app_descriprion1":"Exploitation d'applications iOS / iPhone exceptionnelles, attrayantes et axées sur les objectifs.",
+     "what_we_do_app_descriprion2":"Des applications Web personnalisées de premier plan pour B2B et B2C qui permettent aux clients de surmonter les défis du monde des affaires.",
+     "what_we_do_app_descriprion3":"Application Android robuste et performante offrant évolutivité, sécurité, interactivité et l'utilisateur ultime.",
+     "what_we_do_app_descriprion4":"Applications hybrides natives de niveau entreprise pour un développement facile et rapide avec des conceptions UI UX attrayantes pour chaque client.",
+     "what_we_do_app_descriprion5":"Des applications optimisées produites pour vous aider à transformer rapidement votre entreprise sur plusieurs systèmes d'exploitation avec une grande efficacité.",
+     "what_we_do_app_descriprion6":"Expérience utilisateur engageante utilisant des capacités Web modernes pour fournir une application de pointe. Comme expérience pour nos clients.",
+     "what_we_do_it_app_title1":"Stratégie d'applications mobiles",
+     "what_we_do_it_app_title2":"Design d'applications mobiles",
+     "what_we_do_it_app_title3":"AQ et déploiement",
+     "what_we_do_it_app_title4":"Développement d'applications mobiles",
+     "what_we_do_it_app_description1":"bluenova vous aider à gérer votre entreprise avec succès à l'aide de l'application de vos rêves. Notre structure d'applications exclusives est conçue pour augmenter la productivité et vous aider à mieux utiliser vos ressources. Parallèlement à cela, nous fournissons une définition de stratégie d'application mobile qui augmentera le trafic et conduira à une activité très rentable.",
+     "what_we_do_it_app_description2":"Le processus de développement d'applications mobiles nécessite à la fois créativité, compétences et viabilité. Que vous souhaitiez opter pour le développement d'applications iOS, Android ou hybrides, la clé essentielle du succès est d'avoir les éléments suivants lors de la conception de l'application, des méthodes éprouvées de développement frontal et principal et une approche basée sur les solutions.",
+     "what_we_do_it_app_description3":"Notre équipe QA qualifiée et expérimentée suit les normes les plus élevées en matière de tests et d'analyses d'applications mobiles mutuelles et automatisées. Nous assurons la qualité plus que tout grâce à des examinateurs de qualité, à la sécurité et à la compatibilité. Obtenez une application exquise sans problème, établie et entièrement fonctionnelle avec nous maintenant !",
+     "what_we_do_it_app_description4":"bluenova peut vous aider à gérer votre entreprise avec succès à l'aide de l'application de vos rêves. Notre structure d'applications exclusives est conçue pour augmenter la productivité et vous aider à mieux utiliser vos ressources. Parallèlement à cela, nous fournissons une définition de stratégie d'application mobile qui augmentera le trafic et conduira à une activité très rentable.",
+     
+     "creation_date":"Date de création", 
+     "legal_form":"Forme juridique",
+     "capital":"Capitale"
 }
