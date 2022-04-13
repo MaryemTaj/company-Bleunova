@@ -40,7 +40,7 @@
 
                 <div class="col-md-6 animated slideInRight">
                     <div class="why-we-thum mb-50">
-                    <img src="{{ asset('img/it-2.png') }}"alt="">
+                    <img src="{{ asset('img/it-2.png') }}" alt="it-solution">
                       
                     </div>
                 </div>
@@ -109,7 +109,7 @@
 
                 <div class="col-md-6 animated slideInRight">
                     <div class="why-we-thum ">
-                    <img src="{{ asset('img/mission.jpg') }}"alt="">
+                    <img src="{{ asset('img/mission.jpg') }}"alt="it-technology">
                       
                     </div>
                 </div>

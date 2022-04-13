@@ -17,7 +17,7 @@ Route::get('/menublade', function () {
     return view('menublade');
 });
 
-Route::Redirect('/','/en' );
+Route::Redirect('/','/en');
 
 Route::group(['prefix' => '{language}'],function (){
 Route::get('/','SiteController@index');

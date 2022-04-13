@@ -40,7 +40,7 @@
 
                 <div class="col-md-6 animated slideInRight">
                     <div class="why-we-thum mb-50">
-                    <img src="{{ asset('img/import-1.jpg') }}"alt="">
+                    <img src="{{ asset('img/import-1.jpg') }}"alt="import export">
                       
                     </div>
                 </div>
@@ -112,7 +112,7 @@
 
                 <div class="col-md-6 animated slideInRight">
                     <div class="why-we-thum ">
-                    <img src="{{ asset('img/mission-ex.jpg') }}"alt="" >
+                    <img src="{{ asset('img/mission-ex.jpg') }}"alt="import export" >
                       
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                     <div class="single-feature-area text-center">
                         <!-- Feature Icon -->
                         <div class="feature-icon">
-                            <img src="{{ asset('img/icon-img/teams.png') }}" alt="">
+                            <img src="{{ asset('img/icon-img/teams.png') }}" alt="team">
                         </div>
                         <!-- Single Feature Text -->
                         <div class="feature-content-text">
@@ -172,11 +172,11 @@
                                 </div>
                                                    
                                 <div class="" style="width: 20rem; margin-right:3%">
-                                    <img src="{{ asset('img/Client-Import-Export/imarat.png') }}" class="" alt="...">                                       
+                                    <img src="{{ asset('img/Client-Import-Export/imarat.png') }}" class="" alt="immarat">                                       
                                 </div>
                           
                                 <div class="" style="width: 20rem; margin-right:3%">
-                                    <img src="{{ asset('img/Client-Import-Export/carrfour.png') }}" class="-" alt="...">                                       
+                                    <img src="{{ asset('img/Client-Import-Export/carrfour.png') }}" class="-" alt="carrfour">                                       
                                 </div>
                                                     
                                 

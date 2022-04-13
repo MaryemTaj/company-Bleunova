@@ -179,10 +179,10 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="{{url(app()->getLocale().'/service/exportimport')}}">
-                                            <h5 class="ligne">{{__('service-import-export_title')}} </h5>
+                                            <h1 class="ligne">{{__('service-import-export_title')}} </h1>
                                         </a>
                                         <span class="ligne">{{__('service-import-export_description')}}</span>
-                                        <p><a href=""></a></p>
+                                        <p></p>
                                     </div>                        
                                
                            </div> 
@@ -201,10 +201,10 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="{{url(app()->getLocale().'/service/travaux')}}">
-                                            <h5 class="ligne">{{__('service-construction_title')}}</h5>
+                                            <h1 class="ligne">{{__('service-construction_title')}}</h1>
                                         </a>
                                         <span class="ligne">{{__('service-construction_description')}}</span>
-                                        <p><a href=""></a></p>
+                                        <p></p>
                                     </div>                        
                                 
                            </div> 
@@ -222,10 +222,10 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="{{url(app()->getLocale().'/service/it')}}">
-                                            <h5 class="ligne">{{__('service-it_title')}}</h5>
+                                            <h1 class="ligne">{{__('service-it_title')}}</h1>
                                         </a>
                                         <span class="ligne">{{__('service-it_description')}}</span>
-                                        <p><a href=""></a></p>
+                                        <p></p>
                                     </div>                        
                                
                            </div> 
@@ -244,13 +244,13 @@
                                     <!-- Content -->
                                     <div class="single-blog-content mt-10">                          
                                         <a href="{{url(app()->getLocale().'/service/realEstate')}}">
-                                            <h5 class="ligne">{{__('service-real-estate_title')}}</h5>
+                                            <h1 class="ligne">{{__('service-real-estate_title')}}</h1>
                                         </a>
                                         <span class="ligne">
 
                                         {{__('service-real-estate_description')}}
                                         </span>
-                                        <p><a href=""></a></p>
+                                        <p></p>
                                     </div>                        
                                
                            </div> 
@@ -353,9 +353,9 @@
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
-                            <a href="#">
+                           
                                 <h4>{{__('mission_company_title')}}</h4>
-                            </a>
+                           
                             <p class="mb-0 ">{{__('mission_company_description')}}</p>
                         </div>
                     </div>
@@ -370,9 +370,9 @@
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
-                            <a href="#">
+                            
                                 <h4>{{__('vision_company_title')}}</h4>
-                            </a>
+                           
                             <p class="mb-0">{{__('vision_company_description')}}</p>
                         </div>
                     </div>
@@ -387,9 +387,9 @@
                         </div>
                         <!-- Product COntent Text -->
                         <div class="product-content-text">
-                            <a href="#">
+                           
                                 <h4>{{__('what_we_do_title')}} </h4>
-                            </a>
+                           
                             <p class="mb-0">{{__('what_we_do_description')}} </p>
                         </div>
                     </div>

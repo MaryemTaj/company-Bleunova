@@ -56,7 +56,7 @@
       <img class="logo" src="" >
       <h6>{{__('what_we_do_app_title1')}}</h6>
       <div class="hover_content">
-        <p>{{__('what_we_do_app_descriprion1')}}</p>
+        <p>{{__('what_we_do_app_description1')}}</p>
       </div>
     </div>
   </div>

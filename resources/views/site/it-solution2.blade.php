@@ -34,7 +34,7 @@
                             <div class="col-md-6 col-lg-4 animated slideInRight">
                                 <div class="single-call-desc-content ca-mb-50">
                                 <div class="">
-                            <img class="img-fluid" src="{{ asset('img/mobile-2.jpg') }}" alt="" style=" border-radius: 8px;">
+                            <img class="img-fluid" src="{{ asset('img/mobile-2.jpg') }}" alt="MOBILE APPS DEVELOPMENT" style=" border-radius: 8px;">
                              </div>
                                 </div>
                             </div>

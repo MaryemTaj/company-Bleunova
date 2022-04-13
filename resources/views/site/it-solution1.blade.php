@@ -12,7 +12,7 @@
 <div class="container box">
 <div class="row justify-content-center  animated animate__fadeInUp   wow zoomIn" >
       <div class="col-sm-3  section-padding-50-50">
-         <img src="{{ asset('img/img-it/dev-web.png') }}" alt="">
+         <img src="{{ asset('img/img-it/dev-web.png') }}" alt="développement web">
     </div>
 </div>   
 <div class="row justify-content-center section-padding-0-100  animated animate__fadeInUp   wow zoomIn" > 
