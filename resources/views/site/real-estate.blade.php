@@ -189,9 +189,9 @@
                 <div class="col-md-3 col-lg-3  animate__fadeInUp  wow zoomIn" data-wow-delay="0.4s">
                              
                        
-                        <div class="card1" style="width: 18rem margin-right:10px; margin-buttom:100px">
-                            <img class="card-img-top" src="{{ asset('img/client-real-estate/villa-kech.jpg') }}" alt="Card image cap" style="height:215px">
-                                <div class="card-body">
+                        <div class="card" style="width: 18rem margin-right:10px; margin-buttom:100px">
+                            <img class="card-img-top border border-secondary" src="{{ asset('img/client-real-estate/villa-kech.jpg') }}" alt="Card image cap" style="height:215px">
+                                <div class="card-body ">
                                     <h5 class="card-title">villa ourika Marrakech</h5>  
                                 </div>
                         </div>
@@ -202,7 +202,7 @@
                 <!-- Single Product Build -->
                 <div class="col-md-3 col-lg-3   animate__fadeInUp   wow zoomIn" data-wow-delay="0.6s">
                        
-                        <div class="card1" style="width: 18rem margin-right:10px; margin-buttom:10px">
+                        <div class="card" style="width: 18rem margin-right:10px; margin-buttom:10px">
                             <img class="card-img-top" src="{{ asset('img/client-real-estate/casa.jpg') }}" alt="Card image cap" style="height:215px"  >
                                 <div class="card-body">
                                     <h5 class="card-title">Immeuble R+7- Casablanca </h5>   
@@ -218,7 +218,7 @@
                 <div class="col-md-3 col-lg-3 animate__fadeInUp   wow zoomIn" data-wow-delay="0.8s">
                
                         
-                        <div class="card1" style="width: 18rem;  margin-right:10px;">
+                        <div class="card" style="width: 18rem;  margin-right:10px; margin-buttom:10px">
                             <img class="card-img-top" src="{{ asset('img/client-real-estate/derb-omar.jpg') }}" alt="Card image cap" >
                                 <div class="card-body">
                                     <h5 class="card-title">Magasin Derb omar Casablanca </h5>  

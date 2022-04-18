@@ -660,7 +660,7 @@ p.small {
     }
 }
 
-.after::after{
+/*.after::after{
     position: absolute;
     content: '';
     width: 820px;
@@ -680,7 +680,7 @@ p.small {
           left: -382px;
           top: 20px;
       }
-  }
+  }*/
   
   .border-grad{
 
